@@ -1,6 +1,6 @@
 # Linux での復旧テスト
 
-この配布作成時には Linux の実機試験は実施していません。Linux で依存関係を準備し、展開先の `source` ディレクトリから次を実行してください。
+Linux で依存関係を準備し、リポジトリのルートから次を実行してください。
 
 ```sh
 bash apps/pk-desktop/release/linux_recovery_check.sh
@@ -14,4 +14,4 @@ bash apps/pk-desktop/release/linux_recovery_check.sh
 python3 apps/pk-desktop/release/verify_release.py --output-dir /tmp/pkdesktop-042-linux-check
 ```
 
-`.github/workflows/pkdesktop-linux.yml` は GitHub Actions で R 4.6.1、ps 1.7.6／1.9.1 のマトリックスを実行する設定です。`source` をリポジトリのルートとして配置した場合に動作する想定です。依存関係をネットワークからインストールします。ワークフロー自体の実行は未確認です。
+GitHub ActionsではUbuntu 24.04とR 4.6.1を使い、ps 1.7.6とps 1.9.1のそれぞれで復旧試験と同梱試験を実行します。依存関係はネットワークからインストールします。[ワークフロー](../../../.github/workflows/pkdesktop-linux.yml) · [検証結果](../../../RELEASE_NOTES.md#github-actionsの検証結果)

@@ -1,6 +1,6 @@
 {
   "contract_version": "pkapp-nca-18",
-  "app_version": "0.61.0-alpha",
+  "app_version": "0.61.1-alpha",
   "preparation_steps": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$defs": {

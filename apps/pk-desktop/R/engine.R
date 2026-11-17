@@ -3,7 +3,7 @@ source(file.path(Sys.getenv("PK_REVIEW_ROOT", getwd()), "apps", "pk-review", "bo
 desktop_code_files <- c(list.files(file.path(pk_root, "apps", "pk-desktop", "R"), full.names = TRUE),
                         file.path(pk_root, "apps", "pk-desktop", c("analysis-spec-m0.schema.json", "analysis-spec-v1.schema.json", "nca_mcp_contract.json", "renv.lock")))
 desktop_code_hashes <- stats::setNames(lapply(desktop_code_files, pk_hash), substring(desktop_code_files, nchar(pk_root) + 2L))
-desktop_version <- "0.61.0-alpha"
+desktop_version <- "0.61.1-alpha"
 desktop_lock_hash <- pk_hash(file.path(pk_root, "apps/pk-desktop/renv.lock"))
 
 desktop_error <- function(code, message) {

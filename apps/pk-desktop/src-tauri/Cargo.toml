@@ -1,6 +1,6 @@
 [package]
 name = "pk-desktop"
-version = "0.61.0-alpha"
+version = "0.61.1-alpha"
 edition = "2021"
 description = "Local PK analysis with teal and MCP"
 

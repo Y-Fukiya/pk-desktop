@@ -24,7 +24,7 @@ async def main():
             if response.isError or not payload.get('ok'):raise RuntimeError((name,payload))
             return payload['result']
         status=await call('pk_get_status',{}); await call('pk_nca_get_spec',{})
-        assert status['app_version']=='0.61.0-alpha' and status['contract_version']=='pkapp-nca-18'
+        assert status['app_version']=='0.61.1-alpha' and status['contract_version']=='pkapp-nca-18'
         assert not await call('pk_list_tables',{})
         scope={'project_id':status['project_id'],'base_revision':status['revision'],'actor':'test'}
         table=await call('pk_import_table',{**scope,'path':str(fixture),'name':'TEST ONLY source'})

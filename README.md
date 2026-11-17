@@ -1,4 +1,4 @@
-# PK Desktop 0.61.0-alpha
+# PK Desktop 0.61.1-alpha
 
 PK Desktopは、濃度データの前処理、非コンパートメント解析（NCA）、結果の可視化と保存をローカルで試せるRアプリです。合成データを使った探索・QC向けのアルファ版です。日本語と英語の表示を切り替えられます。英語表示はプレビューです。
 
@@ -16,11 +16,11 @@ Rscript --vanilla apps/pk-desktop/launch.R --mode nca
 ## ビルドと検証
 
 - R環境の準備、ブラウザー版の起動、TauriによるmacOSネイティブ版のビルドを確認できます。[ビルド・起動手順](BUILD.md)
-- 今回の画面変更と、試験および別配布物の確認範囲を確認できます。[リリースノート](RELEASE_NOTES.md)
+- 今回のCI修正と、GitHub Actionsでの検証結果を確認できます。[リリースノート](RELEASE_NOTES.md)
 
 ## R同梱のmacOS版
 
-別配布のR同梱macOS版は、Apple Silicon向けの**アドホック署名版**です。Developer ID署名・Apple公証は未実施です。同梱Rによる起動とNCAは開発時のMacで確認しました。**別のMacでのダウンロード後の起動とGatekeeper通過は未検証です。** ダウンロードしたアプリの起動がGatekeeperでブロックされる場合があります。[AppleのGatekeeperの説明](https://support.apple.com/en-us/102445)
+別配布の0.61.0-alphaのR同梱macOS版は、Apple Silicon向けの**アドホック署名版**です。Developer ID署名・Apple公証は未実施です。同梱Rによる起動とNCAは開発時のMacで確認しました。**別のMacでのダウンロード後の起動とGatekeeper通過は未検証です。** ダウンロードしたアプリの起動がGatekeeperでブロックされる場合があります。[AppleのGatekeeperの説明](https://support.apple.com/en-us/102445)
 
 ## ライセンス
 

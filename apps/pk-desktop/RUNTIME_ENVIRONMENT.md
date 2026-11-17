@@ -1,4 +1,4 @@
-# PK Desktop 0.61.0-alpha: runtime and source distribution
+# PK Desktop 0.61.1-alpha runtime and source distribution
 
 The English UI remains a preview; diagnostic, graph and data-display coverage is incomplete. Test the environment and workflows before use.
 
@@ -40,9 +40,9 @@ python3 apps/pk-desktop/release/package_source.py \
   --source /path/to/completed/source \
   --release-root /path/to/completed/release \
   --include README.md --include Start-NCA.command \
-  --destination /path/to/new-stage/PKDesktop-R-0.61.0-alpha \
-  --archive /path/to/new-output/PKDesktop-R-0.61.0-alpha.zip \
-  --version 0.61.0-alpha
+  --destination /path/to/new-stage/PKDesktop-R-0.61.1-alpha \
+  --archive /path/to/new-output/PKDesktop-R-0.61.1-alpha.zip \
+  --version 0.61.1-alpha
 ```
 
 Build the archive only after changes and checks are complete. The packaging helper verifies structure and integrity, not scientific correctness or live GUI behavior.
