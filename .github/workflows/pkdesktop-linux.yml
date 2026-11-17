@@ -36,6 +36,11 @@ jobs:
         env:
           PS_VERSION: ${{ matrix.ps-version }}
         run: |
+          if [[ "$PS_VERSION" == "1.7.6" ]]; then
+            # R 4.6 hides the Rf_allocSExp declaration used by this archived ps release.
+            export R_MAKEVARS_USER="$RUNNER_TEMP/Makevars.ps-1.7.6"
+            printf '%s\n' 'PKG_CPPFLAGS += -DENABLE_LEGACY_NONAPI_FUNS' > "$R_MAKEVARS_USER"
+          fi
           Rscript --vanilla -e 'lib <- "./.runtime/R-library"; v <- Sys.getenv("PS_VERSION"); urls <- c(sprintf("https://cran.r-project.org/src/contrib/ps_%s.tar.gz", v), sprintf("https://cran.r-project.org/src/contrib/Archive/ps/ps_%s.tar.gz", v)); ok <- FALSE; for (u in urls) { result <- tryCatch({ install.packages(u, repos=NULL, type="source", lib=lib); identical(as.character(packageVersion("ps", lib.loc=lib)), v) }, error=function(e) FALSE); if (isTRUE(result)) { ok <- TRUE; break } }; stopifnot(ok); stopifnot(as.character(packageVersion("ps", lib.loc=lib)) == v)'
       - name: Run Linux recovery and period-order checks
         run: bash apps/pk-desktop/release/linux_recovery_check.sh
