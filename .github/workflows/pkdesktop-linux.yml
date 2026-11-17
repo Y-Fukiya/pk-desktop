@@ -26,7 +26,8 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libv8-dev
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev \
+            libharfbuzz-dev libfribidi-dev libv8-dev libtiff-dev libjpeg-dev libwebp-dev
       - name: Install application and Python dependencies
         run: |
           Rscript --vanilla apps/pk-desktop/install.R
@@ -61,7 +62,8 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libv8-dev
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev \
+            libharfbuzz-dev libfribidi-dev libv8-dev libtiff-dev libjpeg-dev libwebp-dev
       - name: Install R application dependencies
         run: Rscript --vanilla apps/pk-desktop/install.R
       - name: Install Playwright and Chromium
