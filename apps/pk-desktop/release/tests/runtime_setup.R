@@ -1,5 +1,6 @@
 # Offline installer checks: fake the library/install calls and serve a tiny local source archive.
 # Run from the source root: Rscript --vanilla apps/pk-desktop/release/tests/runtime_setup.R
+.libPaths(c(".runtime/R-library", .libPaths()))
 library(testthat)
 script <- normalizePath("apps/pk-desktop/install.R")
 current_url <- "https://cran.r-project.org/src/contrib/PKNCA_0.12.1.tar.gz"
