@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "mapping": {
+    "CONC": {
+      "ID": "PATIENT",
+      "SAMPLE_ID": "SAMPLE",
+      "ANALYTE": "TEST",
+      "CONC": "VALUE",
+      "UNIT": "UNITS",
+      "BLQ": "BELOW",
+      "LLOQ": "LIMIT"
+    },
+    "PC": {
+      "ID": "SUBJECT",
+      "SAMPLE_ID": "SPECIMEN",
+      "PERIOD": "OCCASION",
+      "SAMPLE_DTM": "ACTUAL"
+    },
+    "EX": {
+      "ID": "PERSON",
+      "PERIOD": "OCC",
+      "DOSE_ID": "EVENT",
+      "DOSE_DTM": "ACTUAL"
+    }
+  },
+  "sample_keys": [
+    "ID",
+    "SAMPLE_ID"
+  ],
+  "observation_keys": [
+    "ID",
+    "SAMPLE_ID",
+    "ANALYTE"
+  ],
+  "profile_keys": [
+    "ID",
+    "PERIOD",
+    "ANALYTE"
+  ],
+  "dose_group_keys": [
+    "ID",
+    "PERIOD"
+  ],
+  "dose_record_keys": [
+    "ID",
+    "DOSE_ID"
+  ],
+  "dose_reference": {
+    "mode": "last"
+  },
+  "datetime": {
+    "sample_type": "sas_seconds",
+    "dose_type": "sas_seconds",
+    "utc_offset": "+09:00"
+  },
+  "unmatched": "missing",
+  "missing_datetime": "missing",
+  "dose_history_confirmed": true
+}

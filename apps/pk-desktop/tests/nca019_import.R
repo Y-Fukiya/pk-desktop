@@ -1,0 +1,27 @@
+source("apps/pk-desktop/pkapp.R")
+library(testthat)
+core <- environment(pkapp_open)
+test_that("SAS7BDAT retains IDs, actual datetimes and missing concentrations", {
+  path <- tempfile(fileext = ".sas7bdat")
+  raw <- data.frame(USUBJID = c("001", "002"), SAMPLEID = c("01", "02"),
+    PCDTM = as.POSIXct(c("2026-11-10 09:30:00", "2026-11-10 10:30:00"), tz = "UTC"),
+    CONC = c(1.25, NA_real_), stringsAsFactors = FALSE)
+  suppressWarnings(haven::write_sas(raw, path))
+  got <- pkapp_read_table(path)
+  expect_identical(got$USUBJID, raw$USUBJID)
+  expect_identical(got$SAMPLEID, raw$SAMPLEID)
+  expect_equal(got$CONC, raw$CONC)
+  expect_s3_class(got$PCDTM, "POSIXct")
+  parsed <- core$desktop_timestamp_parse(got$PCDTM, "+09:00", "sas_seconds")
+  expect_equal(parsed$value, as.numeric(raw$PCDTM) - 9 * 3600)
+  expect_true(all(parsed$offset_assumed))
+  expect_true(all(core$desktop_timestamp_parse(got$PCDTM, "+09:00", "iso")$reason == "sas_datetime_requires_clock_mode"))
+})
+test_that("date-only SAS values cannot become actual sampling timestamps", {
+  path <- tempfile(fileext = ".sas7bdat")
+  suppressWarnings(haven::write_sas(data.frame(USUBJID = "001", PCDT = as.Date("2026-11-10")), path))
+  got <- pkapp_read_table(path)
+  expect_s3_class(got$PCDT, "Date")
+  parsed <- core$desktop_timestamp_parse(got$PCDT, "+09:00", "iso")
+  expect_true(is.na(parsed$value)); expect_identical(parsed$reason, "invalid_format")
+})

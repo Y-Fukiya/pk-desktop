@@ -1,0 +1,288 @@
+{
+  "type": "object",
+  "properties": {
+    "spec_version": {
+      "enum": [
+        "1.1-m0",
+        "1.2-alpha",
+        "1.3-alpha"
+      ]
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "updated_by": {
+      "type": "string",
+      "enum": [
+        "ui",
+        "mcp",
+        "r"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "bundle": {
+          "type": "string"
+        },
+        "hashes": {
+          "type": "object",
+          "minProperties": 2,
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      },
+      "required": [
+        "bundle",
+        "hashes"
+      ],
+      "additionalProperties": false
+    },
+    "population": {
+      "type": "object",
+      "properties": {
+        "subjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "subjects"
+      ],
+      "additionalProperties": false
+    },
+    "conc_plot": {
+      "type": "object",
+      "properties": {
+        "profile": {
+          "type": "string",
+          "enum": [
+            "all",
+            "steady_state",
+            "trough"
+          ]
+        },
+        "x": {
+          "type": "string",
+          "enum": [
+            "TIME_H",
+            "TAD_H"
+          ]
+        },
+        "scale": {
+          "type": "string",
+          "enum": [
+            "linear",
+            "log10"
+          ]
+        },
+        "statistic": {
+          "type": "string",
+          "enum": [
+            "mean",
+            "median",
+            "geometric_mean"
+          ]
+        },
+        "error": {
+          "type": "string",
+          "enum": [
+            "none",
+            "sd",
+            "p05_p95",
+            "se"
+          ]
+        },
+        "group_by": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "maxItems": 4
+        },
+        "show_individual": {
+          "type": "boolean"
+        },
+        "include_mdv": {
+          "type": "boolean"
+        },
+        "blq": {
+          "type": "string",
+          "enum": [
+            "exclude",
+            "as_recorded"
+          ]
+        },
+        "facet_by": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true,
+          "maxItems": 2
+        }
+      },
+      "required": [
+        "profile",
+        "x",
+        "scale",
+        "statistic",
+        "error",
+        "group_by",
+        "show_individual",
+        "include_mdv",
+        "blq"
+      ],
+      "additionalProperties": false
+    },
+    "param_summary": {
+      "type": "object",
+      "properties": {
+        "paramcd": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        }
+      },
+      "required": [
+        "paramcd"
+      ],
+      "additionalProperties": false
+    },
+    "report": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "digits": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        }
+      },
+      "required": [
+        "title",
+        "digits"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "spec_version",
+    "project_id",
+    "revision",
+    "updated_by",
+    "updated_at",
+    "data",
+    "population",
+    "conc_plot",
+    "param_summary",
+    "report"
+  ],
+  "additionalProperties": false,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "spec_version": {
+            "const": "1.1-m0"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "conc_plot": {
+            "properties": {
+              "group_by": {
+                "maxItems": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "spec_version": {
+            "enum": [
+              "1.1-m0",
+              "1.2-alpha"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "conc_plot": {
+            "properties": {
+              "group_by": {
+                "items": {
+                  "enum": [
+                    "ARM",
+                    "SEX",
+                    "DOSE_MG",
+                    "ROUTE"
+                  ]
+                }
+              },
+              "error": {
+                "enum": [
+                  "none",
+                  "sd",
+                  "p05_p95"
+                ]
+              }
+            },
+            "not": {
+              "required": [
+                "facet_by"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "spec_version": {
+            "const": "1.3-alpha"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "conc_plot": {
+            "required": [
+              "facet_by"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

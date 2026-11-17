@@ -1,0 +1,20 @@
+source('apps/pk-desktop/tests/nca052_mapping_switch.R')
+source("apps/pk-desktop/tests/helper_nca_review.R")
+
+test_that('file clearing is announced and empty bar hint does not reserve a row', {
+ f<-adpp_fixture();d<-rbind(transform(f$data,PCTESTCD='PARENT'),transform(f$data,PCTESTCD='METAB'))
+ p<-tempfile();dir.create(p);on.exit(unlink(p,recursive=TRUE),add=TRUE);e<-core$desktop_nca_engine(p)
+ src<-file.path(p,'input.csv');core$pk_write_csv(d,src)
+ shiny::testServer(core$desktop_nca_server,args=list(engine=e),{
+  session$setInputs(source='FILE',file=list(datapath=src,name='input.csv'),id='USUBJID',time='TIME',concentration='CONC',groups=c('STUDYID','PERIOD','TRT','PCTESTCD'),unit_column='UNIT',c0_method='none',auc_method='linear',last_observation=TRUE)
+  for(item in c(f$spec$group_roles,list(list(column='PCTESTCD',role='analyte')))) do.call(session$setInputs,setNames(list(item$role),paste0('group_role_column_',digest::digest(item$column,algo='sha256',serialize=FALSE))))
+  nca_confirm_displayed(session, input, output)
+  session$setInputs(run=1);nca_wait_for_job(e,session);session$flushReact()
+  expect_match(output$adpp_mapping_controls$html,'指定方法を切り替えると、選択済みのファイルは解除',fixed=TRUE)
+  expect_match(output$adpp_mapping_controls$html,'個別指定CSVの再選択',fixed=TRUE)
+ })
+ css<-paste(readLines('apps/pk-desktop/R/workbench_styles.R',warn=FALSE),collapse='\n')
+ expect_match(css,'.pk-period-run-hint:empty { display:none; }',fixed=TRUE)
+ html<-as.character(core$desktop_nca_ui('x'))
+ expect_lt(regexpr('id=\"x-period_order_run_hint\"',html,fixed=TRUE)[1],regexpr('id=\"x-run_action\"',html,fixed=TRUE)[1])
+})

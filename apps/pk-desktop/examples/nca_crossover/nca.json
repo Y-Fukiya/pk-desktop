@@ -1,0 +1,22 @@
+{
+  "id": "ID",
+  "groups": [
+    "STUDYID",
+    "PERIOD",
+    "ANALYTE"
+  ],
+  "time": "NCA_TIME_H",
+  "concentration": "NCA_CONC",
+  "unit_column": "UNIT",
+  "blq_column": "NCA_BLQ",
+  "mdv_column": "NCA_MDV",
+  "blq": "as_recorded",
+  "c0_method": "none",
+  "auc_method": "lin up/log down",
+  "terminal_method": "auto",
+  "dosing_context": "isolated_single_period",
+  "dose_history_confirmed": true,
+  "washout_attestation": "protocol_confirmed",
+  "predose_qc_threshold_pct": 5,
+  "predose_qc_window_h": 1
+}

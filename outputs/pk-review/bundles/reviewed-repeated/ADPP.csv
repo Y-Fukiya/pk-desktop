@@ -1,0 +1,901 @@
+STUDYID,USUBJID,SUBJID,PARAMCD,PARAM,AVAL,AVALU,ANL01FL,NCA_METHOD,SOURCE_MODE,ARM,ACTARM,AGE,SEX,WT,BSA,DOSE_MG,DOSE_UNIT,ROUTE
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,AUC0_4SS,AUC 0-4 h at steady state,1252.45347453,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,AUC4_12SS,AUC 4-12 h at steady state,2286.02839022,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,AUCTAUSS,AUC tau at steady state,3538.48186475,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,CMAXSS,Cmax at steady state,349.54593389,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,CPREDOSES,Predose concentration at steady state,234.793176065,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,CTROUGHS,Trough concentration at steady state,227.855652178,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,CMINSS,Cmin at steady state,222.40157979,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,CAVGSS,Cavg at steady state,294.873488729,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,FLUCTSS,Fluctuation at steady state,43.1182723981,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG156H,Observed trough concentration at 156 h,227.855652178,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG72H,Observed trough concentration at 72 h,210.12669499,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG24H,Observed trough concentration at 24 h,163.051007075,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG48H,Observed trough concentration at 48 h,204.118069275,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG96H,Observed trough concentration at 96 h,206.919454949,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG120H,Observed trough concentration at 120 h,217.162594853,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-001,1,TRG144H,Observed trough concentration at 144 h,234.793176065,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.758118,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,AUC4_12SS,AUC 4-12 h at steady state,2570.38334421,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,CPREDOSES,Predose concentration at steady state,270.756804439,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,AUCTAUSS,AUC tau at steady state,4014.49728638,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,CMAXSS,Cmax at steady state,426.425592524,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,AUC0_4SS,AUC 0-4 h at steady state,1444.11394218,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG24H,Observed trough concentration at 24 h,158.82921308,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG48H,Observed trough concentration at 48 h,251.447432058,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG72H,Observed trough concentration at 72 h,243.641914576,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG96H,Observed trough concentration at 96 h,255.044002267,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG120H,Observed trough concentration at 120 h,265.60258047,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG144H,Observed trough concentration at 144 h,270.756804439,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,TRG156H,Observed trough concentration at 156 h,254.028277716,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,CMINSS,Cmin at steady state,247.242363553,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,CAVGSS,Cavg at steady state,334.541440532,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,FLUCTSS,Fluctuation at steady state,53.560846957,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-002,2,CTROUGHS,Trough concentration at steady state,254.028277716,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.745327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG72H,Observed trough concentration at 72 h,168.720406731,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG120H,Observed trough concentration at 120 h,166.978767003,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG144H,Observed trough concentration at 144 h,179.580650801,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG156H,Observed trough concentration at 156 h,189.756721595,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG96H,Observed trough concentration at 96 h,174.690876506,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,CTROUGHS,Trough concentration at steady state,189.756721595,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,CMINSS,Cmin at steady state,175.160416206,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,CAVGSS,Cavg at steady state,261.420571276,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,CPREDOSES,Predose concentration at steady state,179.580650801,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG24H,Observed trough concentration at 24 h,156.578872322,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TRG48H,Observed trough concentration at 48 h,169.925713962,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,AUC0_4SS,AUC 0-4 h at steady state,1189.02833601,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,AUC4_12SS,AUC 4-12 h at steady state,1948.0185193,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,AUCTAUSS,AUC tau at steady state,3137.04685531,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,CMAXSS,Cmax at steady state,369.537124408,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-003,3,FLUCTSS,Fluctuation at steady state,74.3540216645,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.89069,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG24H,Observed trough concentration at 24 h,160.313660701,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG48H,Observed trough concentration at 48 h,198.055480017,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG72H,Observed trough concentration at 72 h,192.212783978,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG120H,Observed trough concentration at 120 h,218.177052087,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG144H,Observed trough concentration at 144 h,205.303644253,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG156H,Observed trough concentration at 156 h,216.145938632,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,CMAXSS,Cmax at steady state,371.973472495,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,CPREDOSES,Predose concentration at steady state,205.303644253,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,CTROUGHS,Trough concentration at steady state,216.145938632,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,CMINSS,Cmin at steady state,181.295239158,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,CAVGSS,Cavg at steady state,278.176214115,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,FLUCTSS,Fluctuation at steady state,68.5458438434,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,AUC4_12SS,AUC 4-12 h at steady state,2108.70901882,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,AUCTAUSS,AUC tau at steady state,3338.11456938,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,TRG96H,Observed trough concentration at 96 h,200.523053358,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-004,4,AUC0_4SS,AUC 0-4 h at steady state,1229.40555056,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.883121,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG156H,Observed trough concentration at 156 h,162.232532023,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,AUC4_12SS,AUC 4-12 h at steady state,1764.98653138,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,CAVGSS,Cavg at steady state,237.33107044,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,FLUCTSS,Fluctuation at steady state,64.2686607914,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG48H,Observed trough concentration at 48 h,166.843978883,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG72H,Observed trough concentration at 72 h,156.96098266,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG96H,Observed trough concentration at 96 h,163.048396959,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG120H,Observed trough concentration at 120 h,164.140177822,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG144H,Observed trough concentration at 144 h,170.930036097,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,AUC0_4SS,AUC 0-4 h at steady state,1082.98631391,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,CPREDOSES,Predose concentration at steady state,170.930036097,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,AUCTAUSS,AUC tau at steady state,2847.97284528,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,CMAXSS,Cmax at steady state,312.31605431,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG24H,Observed trough concentration at 24 h,128.496645941,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,CTROUGHS,Trough concentration at steady state,162.232532023,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,CMINSS,Cmin at steady state,159.786553696,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-005,5,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,45,M,64,1.747387,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,CTROUGHS,Trough concentration at steady state,206.958819962,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,AUC0_4SS,AUC 0-4 h at steady state,1193.63678449,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,AUC4_12SS,AUC 4-12 h at steady state,2024.55845793,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,AUCTAUSS,AUC tau at steady state,3218.19524243,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,CMAXSS,Cmax at steady state,380.208797868,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,CPREDOSES,Predose concentration at steady state,168.428533187,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,CMINSS,Cmin at steady state,168.428533187,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,CAVGSS,Cavg at steady state,268.182936869,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,FLUCTSS,Fluctuation at steady state,78.9685828463,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG96H,Observed trough concentration at 96 h,203.107586102,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG120H,Observed trough concentration at 120 h,212.061082788,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG144H,Observed trough concentration at 144 h,168.428533187,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG156H,Observed trough concentration at 156 h,206.958819962,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG24H,Observed trough concentration at 24 h,149.182010831,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG48H,Observed trough concentration at 48 h,195.431435502,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG72H,Observed trough concentration at 72 h,189.384921313,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-006,6,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,46,F,67,1.724375,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,CPREDOSES,Predose concentration at steady state,170.829291406,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,CTROUGHS,Trough concentration at steady state,200.053754666,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,CMINSS,Cmin at steady state,170.829291406,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,CAVGSS,Cavg at steady state,259.967329983,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,FLUCTSS,Fluctuation at steady state,56.0952041279,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG144H,Observed trough concentration at 144 h,170.829291406,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,AUC0_4SS,AUC 0-4 h at steady state,1105.90773709,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,AUC4_12SS,AUC 4-12 h at steady state,2013.70022271,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,AUCTAUSS,AUC tau at steady state,3119.6079598,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,CMAXSS,Cmax at steady state,316.658495826,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG24H,Observed trough concentration at 24 h,161.143954084,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG48H,Observed trough concentration at 48 h,171.152789598,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG72H,Observed trough concentration at 72 h,174.477094241,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG96H,Observed trough concentration at 96 h,181.374024354,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG156H,Observed trough concentration at 156 h,200.053754666,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-007,7,TRG120H,Observed trough concentration at 120 h,183.476072341,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.797225,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,CMAXSS,Cmax at steady state,343.665718971,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,CPREDOSES,Predose concentration at steady state,230.374066131,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,AUCTAUSS,AUC tau at steady state,3281.99670023,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,CMINSS,Cmin at steady state,201.259554334,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,CAVGSS,Cavg at steady state,273.49972502,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,FLUCTSS,Fluctuation at steady state,52.0681198589,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,CTROUGHS,Trough concentration at steady state,230.715337536,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,AUC0_4SS,AUC 0-4 h at steady state,1175.4735808,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,AUC4_12SS,AUC 4-12 h at steady state,2106.52311943,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG156H,Observed trough concentration at 156 h,230.715337536,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG48H,Observed trough concentration at 48 h,189.759435303,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG72H,Observed trough concentration at 72 h,215.753778488,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG96H,Observed trough concentration at 96 h,241.329734715,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG24H,Observed trough concentration at 24 h,143.45000867,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG144H,Observed trough concentration at 144 h,230.374066131,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-008,8,TRG120H,Observed trough concentration at 120 h,231.820183538,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.817809,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,AUCTAUSS,AUC tau at steady state,2808.18679849,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,CMAXSS,Cmax at steady state,303.450149254,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,AUC4_12SS,AUC 4-12 h at steady state,1786.11081418,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,AUC0_4SS,AUC 0-4 h at steady state,1022.07598431,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG24H,Observed trough concentration at 24 h,140.648945998,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,CPREDOSES,Predose concentration at steady state,162.129839582,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,CTROUGHS,Trough concentration at steady state,174.265526218,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,CMINSS,Cmin at steady state,149.756546093,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,CAVGSS,Cavg at steady state,234.01556654,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,FLUCTSS,Fluctuation at steady state,65.6766579391,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG72H,Observed trough concentration at 72 h,162.435802181,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG96H,Observed trough concentration at 96 h,170.664500358,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG120H,Observed trough concentration at 120 h,175.321351527,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG48H,Observed trough concentration at 48 h,155.645295399,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG156H,Observed trough concentration at 156 h,174.265526218,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-009,9,TRG144H,Observed trough concentration at 144 h,162.129839582,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.952663,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,AUC4_12SS,AUC 4-12 h at steady state,2308.35130884,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,AUCTAUSS,AUC tau at steady state,3558.52749099,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,AUC0_4SS,AUC 0-4 h at steady state,1250.17618215,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,CPREDOSES,Predose concentration at steady state,235.202481598,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,CTROUGHS,Trough concentration at steady state,220.293252348,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,CMAXSS,Cmax at steady state,365.898448801,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG24H,Observed trough concentration at 24 h,148.271069487,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG48H,Observed trough concentration at 48 h,196.947760126,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG72H,Observed trough concentration at 72 h,228.566559149,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG96H,Observed trough concentration at 96 h,244.773305613,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG120H,Observed trough concentration at 120 h,215.021154619,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG144H,Observed trough concentration at 144 h,235.202481598,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,TRG156H,Observed trough concentration at 156 h,220.293252348,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,CMINSS,Cmin at steady state,210.654363584,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,CAVGSS,Cavg at steady state,296.543957583,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-010,10,FLUCTSS,Fluctuation at steady state,52.3511207183,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.705275,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,AUC0_4SS,AUC 0-4 h at steady state,1261.01525142,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,AUC4_12SS,AUC 4-12 h at steady state,2137.62224781,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,AUCTAUSS,AUC tau at steady state,3398.63749923,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,CMAXSS,Cmax at steady state,363.062544411,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,CPREDOSES,Predose concentration at steady state,214.414419846,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,CTROUGHS,Trough concentration at steady state,209.15603666,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,CMINSS,Cmin at steady state,209.15603666,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,CAVGSS,Cavg at steady state,283.219791603,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,FLUCTSS,Fluctuation at steady state,54.3417205697,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG72H,Observed trough concentration at 72 h,191.854894859,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG24H,Observed trough concentration at 24 h,162.076711197,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG48H,Observed trough concentration at 48 h,203.859061749,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG156H,Observed trough concentration at 156 h,209.15603666,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG96H,Observed trough concentration at 96 h,199.714634715,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG120H,Observed trough concentration at 120 h,212.04071256,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-011,11,TRG144H,Observed trough concentration at 144 h,214.414419846,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.764587,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,AUC0_4SS,AUC 0-4 h at steady state,1002.90849392,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,FLUCTSS,Fluctuation at steady state,62.8820590601,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG24H,Observed trough concentration at 24 h,141.774584764,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG48H,Observed trough concentration at 48 h,154.23651109,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG72H,Observed trough concentration at 72 h,173.539002555,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG96H,Observed trough concentration at 96 h,169.501153565,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,AUC4_12SS,AUC 4-12 h at steady state,1768.30929679,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,AUCTAUSS,AUC tau at steady state,2771.21779071,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,CMAXSS,Cmax at steady state,303.76796822,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TMAXSS,Tmax at steady state,4,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,CPREDOSES,Predose concentration at steady state,164.986721577,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,CTROUGHS,Trough concentration at steady state,177.097047487,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,CMINSS,Cmin at steady state,158.5514009,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,CAVGSS,Cavg at steady state,230.934815893,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG120H,Observed trough concentration at 120 h,173.185142842,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG144H,Observed trough concentration at 144 h,164.986721577,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-012,12,TRG156H,Observed trough concentration at 156 h,177.097047487,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.772666,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,CMAXSS,Cmax at steady state,331.534950536,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,AUC0_4SS,AUC 0-4 h at steady state,1186.61902237,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,AUC4_12SS,AUC 4-12 h at steady state,2220.50351847,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,AUCTAUSS,AUC tau at steady state,3407.12254084,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,CMINSS,Cmin at steady state,203.987160962,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,CAVGSS,Cavg at steady state,283.926878403,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,FLUCTSS,Fluctuation at steady state,44.9227597934,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG72H,Observed trough concentration at 72 h,212.596307336,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG96H,Observed trough concentration at 96 h,248.021537445,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG120H,Observed trough concentration at 120 h,225.625685144,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG144H,Observed trough concentration at 144 h,228.027751642,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG156H,Observed trough concentration at 156 h,248.459464166,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,CTROUGHS,Trough concentration at steady state,248.459464166,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,CPREDOSES,Predose concentration at steady state,228.027751642,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG24H,Observed trough concentration at 24 h,146.733725127,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-013,13,TRG48H,Observed trough concentration at 48 h,204.570506338,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.788265,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,CPREDOSES,Predose concentration at steady state,227.63600621,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,CTROUGHS,Trough concentration at steady state,209.912158172,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,AUC0_4SS,AUC 0-4 h at steady state,1248.79817036,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,AUC4_12SS,AUC 4-12 h at steady state,2180.19882337,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,AUCTAUSS,AUC tau at steady state,3428.99699373,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,CMAXSS,Cmax at steady state,371.871110985,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG24H,Observed trough concentration at 24 h,151.830738321,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG48H,Observed trough concentration at 48 h,190.692637277,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG72H,Observed trough concentration at 72 h,229.393222364,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG96H,Observed trough concentration at 96 h,219.087476421,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG120H,Observed trough concentration at 120 h,199.100331118,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG144H,Observed trough concentration at 144 h,227.63600621,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,TRG156H,Observed trough concentration at 156 h,209.912158172,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,CMINSS,Cmin at steady state,188.50710908,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,CAVGSS,Cavg at steady state,285.749749477,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-014,14,FLUCTSS,Fluctuation at steady state,64.1694357529,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.831432,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG96H,Observed trough concentration at 96 h,196.63639481,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG24H,Observed trough concentration at 24 h,136.889501431,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG48H,Observed trough concentration at 48 h,190.973595549,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG72H,Observed trough concentration at 72 h,205.34759226,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,FLUCTSS,Fluctuation at steady state,50.8272914917,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG120H,Observed trough concentration at 120 h,192.631297141,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG144H,Observed trough concentration at 144 h,186.925021014,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TRG156H,Observed trough concentration at 156 h,180.752938048,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,AUC0_4SS,AUC 0-4 h at steady state,1053.48712308,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,AUC4_12SS,AUC 4-12 h at steady state,1868.40024821,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,AUCTAUSS,AUC tau at steady state,2921.88737129,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,CMAXSS,Cmax at steady state,304.51262232,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,CPREDOSES,Predose concentration at steady state,186.925021014,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,CTROUGHS,Trough concentration at steady state,180.752938048,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,CMINSS,Cmin at steady state,180.752938048,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-015,15,CAVGSS,Cavg at steady state,243.490614274,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.73686,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,AUC0_4SS,AUC 0-4 h at steady state,777.500504772,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,AUC4_12SS,AUC 4-12 h at steady state,1237.54445527,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,AUCTAUSS,AUC tau at steady state,2015.04496004,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,CMAXSS,Cmax at steady state,227.374910744,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,CPREDOSES,Predose concentration at steady state,105.321467325,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,CTROUGHS,Trough concentration at steady state,102.012733711,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,CMINSS,Cmin at steady state,102.012733711,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,CAVGSS,Cavg at steady state,167.920413337,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,FLUCTSS,Fluctuation at steady state,74.655710132,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG96H,Observed trough concentration at 96 h,106.229569338,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG24H,Observed trough concentration at 24 h,90.5210368252,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG48H,Observed trough concentration at 48 h,105.912345505,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG72H,Observed trough concentration at 72 h,118.865039103,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG120H,Observed trough concentration at 120 h,117.248875945,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG144H,Observed trough concentration at 144 h,105.321467325,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-016,16,TRG156H,Observed trough concentration at 156 h,102.012733711,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.734862,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,AUC0_4SS,AUC 0-4 h at steady state,977.203707224,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,AUC4_12SS,AUC 4-12 h at steady state,1685.91846289,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,AUCTAUSS,AUC tau at steady state,2663.12217012,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,CMAXSS,Cmax at steady state,280.638617413,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG24H,Observed trough concentration at 24 h,122.012037102,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG48H,Observed trough concentration at 48 h,133.859997808,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG72H,Observed trough concentration at 72 h,154.3611336,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG96H,Observed trough concentration at 96 h,152.7630398,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG120H,Observed trough concentration at 120 h,158.953499619,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,CPREDOSES,Predose concentration at steady state,165.214894528,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,CTROUGHS,Trough concentration at steady state,151.579739762,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,CMINSS,Cmin at steady state,151.579739762,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,CAVGSS,Cavg at steady state,221.92684751,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,FLUCTSS,Fluctuation at steady state,58.1537921613,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG144H,Observed trough concentration at 144 h,165.214894528,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-017,17,TRG156H,Observed trough concentration at 156 h,151.579739762,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.86417,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,AUCTAUSS,AUC tau at steady state,3098.27747942,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,CMAXSS,Cmax at steady state,326.520792035,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,AUC0_4SS,AUC 0-4 h at steady state,1108.99611576,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,AUC4_12SS,AUC 4-12 h at steady state,1989.28136366,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,CTROUGHS,Trough concentration at steady state,190.421338231,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,CMINSS,Cmin at steady state,168.973694136,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,CPREDOSES,Predose concentration at steady state,210.559969209,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG24H,Observed trough concentration at 24 h,134.849423484,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG48H,Observed trough concentration at 48 h,197.246771605,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG72H,Observed trough concentration at 72 h,195.210559714,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG96H,Observed trough concentration at 96 h,191.060587245,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG120H,Observed trough concentration at 120 h,181.718474962,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG144H,Observed trough concentration at 144 h,210.559969209,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,TRG156H,Observed trough concentration at 156 h,190.421338231,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,CAVGSS,Cavg at steady state,258.189789952,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-018,18,FLUCTSS,Fluctuation at steady state,61.0198791859,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.777527,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG48H,Observed trough concentration at 48 h,155.985430545,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG72H,Observed trough concentration at 72 h,168.428961531,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG24H,Observed trough concentration at 24 h,118.632749408,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG144H,Observed trough concentration at 144 h,156.878386595,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG156H,Observed trough concentration at 156 h,163.48583722,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,AUCTAUSS,AUC tau at steady state,2589.54713355,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,CMAXSS,Cmax at steady state,290.75523428,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,CPREDOSES,Predose concentration at steady state,156.878386595,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,CTROUGHS,Trough concentration at steady state,163.48583722,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,CMINSS,Cmin at steady state,156.878386595,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,CAVGSS,Cavg at steady state,215.795594462,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,FLUCTSS,Fluctuation at steady state,62.0387306879,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,AUC4_12SS,AUC 4-12 h at steady state,1611.52507512,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG96H,Observed trough concentration at 96 h,152.484681577,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,TRG120H,Observed trough concentration at 120 h,163.369370965,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-019,19,AUC0_4SS,AUC 0-4 h at steady state,978.022058434,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.930449,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,AUC0_4SS,AUC 0-4 h at steady state,943.204748173,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG24H,Observed trough concentration at 24 h,107.313640595,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG48H,Observed trough concentration at 48 h,135.954269451,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG72H,Observed trough concentration at 72 h,128.931914912,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG96H,Observed trough concentration at 96 h,136.113119364,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG120H,Observed trough concentration at 120 h,129.638490979,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG144H,Observed trough concentration at 144 h,127.423502133,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TRG156H,Observed trough concentration at 156 h,151.916787159,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,AUC4_12SS,AUC 4-12 h at steady state,1580.70732688,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,AUCTAUSS,AUC tau at steady state,2523.91207505,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,CMAXSS,Cmax at steady state,290.116928357,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,CAVGSS,Cavg at steady state,210.326006254,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,CPREDOSES,Predose concentration at steady state,127.423502133,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,CTROUGHS,Trough concentration at steady state,151.916787159,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,CMINSS,Cmin at steady state,127.423502133,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-020,20,FLUCTSS,Fluctuation at steady state,77.3529765155,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.727113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,AUC0_4SS,AUC 0-4 h at steady state,1047.03495963,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,AUC4_12SS,AUC 4-12 h at steady state,1676.31764626,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,AUCTAUSS,AUC tau at steady state,2723.35260589,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,CMAXSS,Cmax at steady state,336.501179348,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,CPREDOSES,Predose concentration at steady state,156.039923205,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,CTROUGHS,Trough concentration at steady state,173.226137992,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,CMINSS,Cmin at steady state,156.039923205,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,CAVGSS,Cavg at steady state,226.946050491,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,FLUCTSS,Fluctuation at steady state,79.5172490347,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG144H,Observed trough concentration at 144 h,156.039923205,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG156H,Observed trough concentration at 156 h,173.226137992,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG72H,Observed trough concentration at 72 h,150.493434742,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG96H,Observed trough concentration at 96 h,171.681023624,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG24H,Observed trough concentration at 24 h,134.433552147,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG48H,Observed trough concentration at 48 h,159.84395212,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-021,21,TRG120H,Observed trough concentration at 120 h,151.495088286,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.806913,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,AUCTAUSS,AUC tau at steady state,3144.44410685,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,CMAXSS,Cmax at steady state,328.849902639,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,CPREDOSES,Predose concentration at steady state,220.292835451,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,CTROUGHS,Trough concentration at steady state,214.348215097,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,CMINSS,Cmin at steady state,214.348215097,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,AUC0_4SS,AUC 0-4 h at steady state,1122.65846625,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,AUC4_12SS,AUC 4-12 h at steady state,2021.7856406,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG24H,Observed trough concentration at 24 h,135.717313034,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG48H,Observed trough concentration at 48 h,191.306045528,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG72H,Observed trough concentration at 72 h,214.393886954,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG96H,Observed trough concentration at 96 h,193.99905344,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG120H,Observed trough concentration at 120 h,213.774678929,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG144H,Observed trough concentration at 144 h,220.292835451,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,TRG156H,Observed trough concentration at 156 h,214.348215097,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,FLUCTSS,Fluctuation at steady state,43.6967617746,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-022,22,CAVGSS,Cavg at steady state,262.037008904,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.754757,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG24H,Observed trough concentration at 24 h,161.242678514,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG48H,Observed trough concentration at 48 h,195.968692937,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG72H,Observed trough concentration at 72 h,222.608416001,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG120H,Observed trough concentration at 120 h,217.008216302,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG144H,Observed trough concentration at 144 h,213.660248542,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG156H,Observed trough concentration at 156 h,197.732208452,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG96H,Observed trough concentration at 96 h,201.253044719,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,CAVGSS,Cavg at steady state,279.91653827,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,FLUCTSS,Fluctuation at steady state,50.7581576641,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,AUC4_12SS,AUC 4-12 h at steady state,2147.8348883,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,CMINSS,Cmin at steady state,197.732208452,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,AUC0_4SS,AUC 0-4 h at steady state,1211.16357094,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,CPREDOSES,Predose concentration at steady state,213.660248542,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,AUCTAUSS,AUC tau at steady state,3358.99845924,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,CMAXSS,Cmax at steady state,339.812686275,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-023,23,CTROUGHS,Trough concentration at steady state,197.732208452,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.901693,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG72H,Observed trough concentration at 72 h,175.051833476,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG24H,Observed trough concentration at 24 h,146.722805558,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG48H,Observed trough concentration at 48 h,176.347739191,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,AUC0_4SS,AUC 0-4 h at steady state,1092.24268984,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG96H,Observed trough concentration at 96 h,176.895154098,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG120H,Observed trough concentration at 120 h,185.655345967,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG144H,Observed trough concentration at 144 h,189.955862091,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TRG156H,Observed trough concentration at 156 h,180.681336414,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,CPREDOSES,Predose concentration at steady state,189.955862091,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,CTROUGHS,Trough concentration at steady state,180.681336414,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,CMINSS,Cmin at steady state,170.401538706,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,CAVGSS,Cavg at steady state,256.36528761,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,FLUCTSS,Fluctuation at steady state,59.7737525379,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,AUC4_12SS,AUC 4-12 h at steady state,1984.14076147,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,AUCTAUSS,AUC tau at steady state,3076.38345132,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,CMAXSS,Cmax at steady state,323.640691315,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-024,24,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.847327,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG120H,Observed trough concentration at 120 h,180.359310573,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG144H,Observed trough concentration at 144 h,175.876404821,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG156H,Observed trough concentration at 156 h,180.213126545,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,CMAXSS,Cmax at steady state,297.283525167,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,FLUCTSS,Fluctuation at steady state,55.950246403,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG24H,Observed trough concentration at 24 h,144.661530822,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG48H,Observed trough concentration at 48 h,169.307626094,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG72H,Observed trough concentration at 72 h,175.968322865,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG96H,Observed trough concentration at 96 h,180.180904815,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,AUC0_4SS,AUC 0-4 h at steady state,1008.56030351,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,AUC4_12SS,AUC 4-12 h at steady state,1800.10342886,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,AUCTAUSS,AUC tau at steady state,2808.66373237,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,CMINSS,Cmin at steady state,166.329001926,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TMAXSS,Tmax at steady state,4,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,CPREDOSES,Predose concentration at steady state,175.876404821,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,CTROUGHS,Trough concentration at steady state,180.213126545,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,CAVGSS,Cavg at steady state,234.055311031,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-025,25,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,45,M,64,1.743113,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,CMINSS,Cmin at steady state,180.27261535,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,AUC0_4SS,AUC 0-4 h at steady state,1090.7101253,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,AUC4_12SS,AUC 4-12 h at steady state,1855.47242309,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,AUCTAUSS,AUC tau at steady state,2946.1825484,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,CMAXSS,Cmax at steady state,307.198156009,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,CPREDOSES,Predose concentration at steady state,180.27261535,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,CTROUGHS,Trough concentration at steady state,181.095555446,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG24H,Observed trough concentration at 24 h,139.817719222,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG48H,Observed trough concentration at 48 h,182.902322531,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG72H,Observed trough concentration at 72 h,184.552017519,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG96H,Observed trough concentration at 96 h,195.957654782,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG120H,Observed trough concentration at 120 h,166.21096301,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG144H,Observed trough concentration at 144 h,180.27261535,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,TRG156H,Observed trough concentration at 156 h,181.095555446,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,CAVGSS,Cavg at steady state,245.515212366,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-026,26,FLUCTSS,Fluctuation at steady state,51.6976277908,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.757543,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG48H,Observed trough concentration at 48 h,178.565374623,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG72H,Observed trough concentration at 72 h,191.391543934,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG24H,Observed trough concentration at 24 h,141.579372508,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG144H,Observed trough concentration at 144 h,185.417855913,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG156H,Observed trough concentration at 156 h,229.814921564,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG96H,Observed trough concentration at 96 h,203.000389829,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TRG120H,Observed trough concentration at 120 h,201.850968423,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,AUC0_4SS,AUC 0-4 h at steady state,1108.70051975,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,AUC4_12SS,AUC 4-12 h at steady state,1975.67445081,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,AUCTAUSS,AUC tau at steady state,3084.37497056,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,CMAXSS,Cmax at steady state,315.609991065,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,CPREDOSES,Predose concentration at steady state,185.417855913,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,CTROUGHS,Trough concentration at steady state,229.814921564,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,CMINSS,Cmin at steady state,185.417855913,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,CAVGSS,Cavg at steady state,257.031247547,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-027,27,FLUCTSS,Fluctuation at steady state,50.6522597523,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.814624,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,AUC0_4SS,AUC 0-4 h at steady state,1096.96690961,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG24H,Observed trough concentration at 24 h,152.513841065,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG48H,Observed trough concentration at 48 h,176.651282662,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG72H,Observed trough concentration at 72 h,188.057627824,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG96H,Observed trough concentration at 96 h,198.809318538,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG120H,Observed trough concentration at 120 h,192.047245322,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG144H,Observed trough concentration at 144 h,202.262656974,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TRG156H,Observed trough concentration at 156 h,202.55902872,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,FLUCTSS,Fluctuation at steady state,53.0247072074,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,AUC4_12SS,AUC 4-12 h at steady state,1899.08543167,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,AUCTAUSS,AUC tau at steady state,2996.05234128,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,CMAXSS,Cmax at steady state,314.655095202,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,CPREDOSES,Predose concentration at steady state,202.262656974,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,CTROUGHS,Trough concentration at steady state,202.55902872,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,CMINSS,Cmin at steady state,182.26776339,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-028,28,CAVGSS,Cavg at steady state,249.67102844,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.824389,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG24H,Observed trough concentration at 24 h,100.280015605,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG48H,Observed trough concentration at 48 h,110.918434455,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG72H,Observed trough concentration at 72 h,115.671082009,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG96H,Observed trough concentration at 96 h,121.100821464,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,AUC0_4SS,AUC 0-4 h at steady state,920.440215431,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,AUC4_12SS,AUC 4-12 h at steady state,1393.64463609,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,AUCTAUSS,AUC tau at steady state,2314.08485152,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,CMAXSS,Cmax at steady state,269.309151373,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG120H,Observed trough concentration at 120 h,122.856762171,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG144H,Observed trough concentration at 144 h,131.854465395,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TRG156H,Observed trough concentration at 156 h,113.938114096,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,CAVGSS,Cavg at steady state,192.840404294,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,FLUCTSS,Fluctuation at steady state,80.569752924,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,CPREDOSES,Predose concentration at steady state,131.854465395,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,CTROUGHS,Trough concentration at steady state,113.938114096,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-029,29,CMINSS,Cmin at steady state,113.938114096,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.949752,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG48H,Observed trough concentration at 48 h,163.818610513,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG72H,Observed trough concentration at 72 h,163.56721161,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG96H,Observed trough concentration at 96 h,168.464059119,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG120H,Observed trough concentration at 120 h,175.723718543,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG144H,Observed trough concentration at 144 h,164.76019948,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG156H,Observed trough concentration at 156 h,155.983439006,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,CTROUGHS,Trough concentration at steady state,155.983439006,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,CMINSS,Cmin at steady state,155.983439006,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TRG24H,Observed trough concentration at 24 h,125.977787583,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,AUC0_4SS,AUC 0-4 h at steady state,973.787983979,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,AUC4_12SS,AUC 4-12 h at steady state,1717.45651015,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,AUCTAUSS,AUC tau at steady state,2691.24449413,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,CMAXSS,Cmax at steady state,286.759925377,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,CPREDOSES,Predose concentration at steady state,164.76019948,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,CAVGSS,Cavg at steady state,224.27037451,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-030,30,FLUCTSS,Fluctuation at steady state,58.3119757375,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.68072,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG24H,Observed trough concentration at 24 h,144.836443837,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,AUC0_4SS,AUC 0-4 h at steady state,1183.55226727,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,AUC4_12SS,AUC 4-12 h at steady state,2036.11586779,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,AUCTAUSS,AUC tau at steady state,3219.66813505,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,CMAXSS,Cmax at steady state,369.979614661,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,CPREDOSES,Predose concentration at steady state,201.032339561,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,CTROUGHS,Trough concentration at steady state,209.739051787,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,CMINSS,Cmin at steady state,201.032339561,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,CAVGSS,Cavg at steady state,268.305677921,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,FLUCTSS,Fluctuation at steady state,62.9682071617,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG72H,Observed trough concentration at 72 h,189.708916519,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG96H,Observed trough concentration at 96 h,199.821275655,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG120H,Observed trough concentration at 120 h,188.356357818,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG48H,Observed trough concentration at 48 h,187.377858213,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG156H,Observed trough concentration at 156 h,209.739051787,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-031,31,TRG144H,Observed trough concentration at 144 h,201.032339561,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,51,M,67,1.707793,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,AUC4_12SS,AUC 4-12 h at steady state,1831.55611511,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,AUCTAUSS,AUC tau at steady state,2887.38410106,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,AUC0_4SS,AUC 0-4 h at steady state,1055.82798595,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,FLUCTSS,Fluctuation at steady state,55.8501461183,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG24H,Observed trough concentration at 24 h,141.066567674,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG48H,Observed trough concentration at 48 h,174.563403445,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG72H,Observed trough concentration at 72 h,159.18033082,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG96H,Observed trough concentration at 96 h,188.390514128,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG120H,Observed trough concentration at 120 h,184.971482634,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG144H,Observed trough concentration at 144 h,180.86129397,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,CMAXSS,Cmax at steady state,301.916482749,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,CPREDOSES,Predose concentration at steady state,180.86129397,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,CTROUGHS,Trough concentration at steady state,177.831750568,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,CMINSS,Cmin at steady state,167.532462796,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,CAVGSS,Cavg at steady state,240.615341755,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-032,32,TRG156H,Observed trough concentration at 156 h,177.831750568,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,52,F,70,1.782455,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,AUC0_4SS,AUC 0-4 h at steady state,1180.48587596,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,AUC4_12SS,AUC 4-12 h at steady state,2185.47960239,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,CMAXSS,Cmax at steady state,339.141401754,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TMAXSS,Tmax at steady state,4,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,CPREDOSES,Predose concentration at steady state,212.621152814,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,AUCTAUSS,AUC tau at steady state,3365.96547834,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,CMINSS,Cmin at steady state,194.70128343,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,CAVGSS,Cavg at steady state,280.497123195,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,FLUCTSS,Fluctuation at steady state,51.4943314493,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG72H,Observed trough concentration at 72 h,205.033681248,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG96H,Observed trough concentration at 96 h,196.723089957,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG120H,Observed trough concentration at 120 h,210.362311554,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG144H,Observed trough concentration at 144 h,212.621152814,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG156H,Observed trough concentration at 156 h,218.404782885,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,CTROUGHS,Trough concentration at steady state,218.404782885,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG24H,Observed trough concentration at 24 h,147.212204602,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-033,33,TRG48H,Observed trough concentration at 48 h,217.832166379,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,53,M,73,1.879075,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,CPREDOSES,Predose concentration at steady state,245.35803139,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,CTROUGHS,Trough concentration at steady state,230.428387958,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,CMINSS,Cmin at steady state,230.428387958,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,CAVGSS,Cavg at steady state,294.173136358,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,AUC0_4SS,AUC 0-4 h at steady state,1282.24089992,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,AUC4_12SS,AUC 4-12 h at steady state,2247.83673637,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,AUCTAUSS,AUC tau at steady state,3530.0776363,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,CMAXSS,Cmax at steady state,362.993816131,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TMAXSS,Tmax at steady state,4,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG24H,Observed trough concentration at 24 h,151.287184956,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG48H,Observed trough concentration at 48 h,182.397700124,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG72H,Observed trough concentration at 72 h,204.402901737,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG96H,Observed trough concentration at 96 h,209.405480721,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG120H,Observed trough concentration at 120 h,213.455876857,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG144H,Observed trough concentration at 144 h,245.35803139,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,TRG156H,Observed trough concentration at 156 h,230.428387958,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-034,34,FLUCTSS,Fluctuation at steady state,45.0637436899,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,54,F,76,1.874739,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG24H,Observed trough concentration at 24 h,104.897581266,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG72H,Observed trough concentration at 72 h,139.81092771,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG96H,Observed trough concentration at 96 h,137.06648861,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG120H,Observed trough concentration at 120 h,123.951436766,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG48H,Observed trough concentration at 48 h,131.076343287,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG156H,Observed trough concentration at 156 h,134.137785913,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,AUC4_12SS,AUC 4-12 h at steady state,1533.1049253,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,AUCTAUSS,AUC tau at steady state,2438.69773728,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TRG144H,Observed trough concentration at 144 h,136.389599951,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,AUC0_4SS,AUC 0-4 h at steady state,905.592811982,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,CPREDOSES,Predose concentration at steady state,136.389599951,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,CTROUGHS,Trough concentration at steady state,134.137785913,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,CMAXSS,Cmax at steady state,265.796076633,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,FLUCTSS,Fluctuation at steady state,70.3415081756,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,CMINSS,Cmin at steady state,122.844679279,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-035,35,CAVGSS,Cavg at steady state,203.22481144,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,55,M,64,1.803577,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG24H,Observed trough concentration at 24 h,157.726956815,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,AUC0_4SS,AUC 0-4 h at steady state,1077.73983027,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,AUC4_12SS,AUC 4-12 h at steady state,1911.21085443,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,AUCTAUSS,AUC tau at steady state,2988.9506847,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,CMAXSS,Cmax at steady state,328.071915978,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,CPREDOSES,Predose concentration at steady state,191.565478794,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,CTROUGHS,Trough concentration at steady state,183.330686517,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,CMINSS,Cmin at steady state,177.653176064,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,CAVGSS,Cavg at steady state,249.079223725,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,FLUCTSS,Fluctuation at steady state,60.389918382,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG96H,Observed trough concentration at 96 h,179.390074731,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG120H,Observed trough concentration at 120 h,163.303114269,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG48H,Observed trough concentration at 48 h,169.273400992,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG72H,Observed trough concentration at 72 h,173.568380561,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG144H,Observed trough concentration at 144 h,191.565478794,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-036,36,TRG156H,Observed trough concentration at 156 h,183.330686517,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,56,F,67,1.798149,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,AUC0_4SS,AUC 0-4 h at steady state,1306.55406865,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,AUC4_12SS,AUC 4-12 h at steady state,2299.20062939,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,CPREDOSES,Predose concentration at steady state,248.002517412,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,AUCTAUSS,AUC tau at steady state,3605.75469804,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,CMAXSS,Cmax at steady state,374.394672778,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG24H,Observed trough concentration at 24 h,181.247379222,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG48H,Observed trough concentration at 48 h,208.811400082,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG72H,Observed trough concentration at 72 h,256.131333461,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG96H,Observed trough concentration at 96 h,241.081719413,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG120H,Observed trough concentration at 120 h,241.933398101,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG144H,Observed trough concentration at 144 h,248.002517412,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,CTROUGHS,Trough concentration at steady state,256.937020338,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,CMINSS,Cmin at steady state,244.082494876,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,CAVGSS,Cavg at steady state,300.47955817,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,FLUCTSS,Fluctuation at steady state,43.3680675969,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-037,37,TRG156H,Observed trough concentration at 156 h,256.937020338,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,57,M,70,1.848735,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,AUC0_4SS,AUC 0-4 h at steady state,943.609846759,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,AUCTAUSS,AUC tau at steady state,2531.5425635,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,CMAXSS,Cmax at steady state,273.807913776,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,AUC4_12SS,AUC 4-12 h at steady state,1587.93271674,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,CTROUGHS,Trough concentration at steady state,154.774943523,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,CMINSS,Cmin at steady state,140.776034839,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,CAVGSS,Cavg at steady state,210.961880292,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,CPREDOSES,Predose concentration at steady state,154.934202295,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG24H,Observed trough concentration at 24 h,108.384376367,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG48H,Observed trough concentration at 48 h,131.745369971,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG72H,Observed trough concentration at 72 h,160.672071844,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG96H,Observed trough concentration at 96 h,145.458070829,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG120H,Observed trough concentration at 120 h,149.989236715,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG144H,Observed trough concentration at 144 h,154.934202295,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,TRG156H,Observed trough concentration at 156 h,154.774943523,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-038,38,FLUCTSS,Fluctuation at steady state,63.0596763515,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,58,F,73,1.819182,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG24H,Observed trough concentration at 24 h,133.127004021,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG72H,Observed trough concentration at 72 h,157.191396496,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG96H,Observed trough concentration at 96 h,171.255363686,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG120H,Observed trough concentration at 120 h,186.179315464,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG48H,Observed trough concentration at 48 h,157.022220522,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG156H,Observed trough concentration at 156 h,171.570345751,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,AUC4_12SS,AUC 4-12 h at steady state,1876.83305459,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,AUCTAUSS,AUC tau at steady state,2959.89093751,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,CMAXSS,Cmax at steady state,319.393552709,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,CPREDOSES,Predose concentration at steady state,162.698228985,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,CTROUGHS,Trough concentration at steady state,171.570345751,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,CMINSS,Cmin at steady state,158.455665572,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,CAVGSS,Cavg at steady state,246.657578126,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,FLUCTSS,Fluctuation at steady state,65.2474934521,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,TRG144H,Observed trough concentration at 144 h,162.698228985,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-039,39,AUC0_4SS,AUC 0-4 h at steady state,1083.05788292,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,59,M,76,1.933469,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,AUC0_4SS,AUC 0-4 h at steady state,1151.54638775,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,AUC4_12SS,AUC 4-12 h at steady state,2102.07375423,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG24H,Observed trough concentration at 24 h,147.561710057,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG48H,Observed trough concentration at 48 h,189.827985413,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG72H,Observed trough concentration at 72 h,208.461523143,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG96H,Observed trough concentration at 96 h,205.116617749,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG120H,Observed trough concentration at 120 h,216.712477383,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG144H,Observed trough concentration at 144 h,232.581850067,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TRG156H,Observed trough concentration at 156 h,218.491660814,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,CMAXSS,Cmax at steady state,326.102384453,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,CPREDOSES,Predose concentration at steady state,232.581850067,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,AUCTAUSS,AUC tau at steady state,3253.62014198,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,CMINSS,Cmin at steady state,202.408406419,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,CAVGSS,Cavg at steady state,271.135011832,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,FLUCTSS,Fluctuation at steady state,45.6208061062,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-040,40,CTROUGHS,Trough concentration at steady state,218.491660814,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,40,F,64,1.734612,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG24H,Observed trough concentration at 24 h,155.8277463,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG48H,Observed trough concentration at 48 h,186.610000463,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,AUC0_4SS,AUC 0-4 h at steady state,1192.01175922,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,AUC4_12SS,AUC 4-12 h at steady state,2073.4316107,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,AUCTAUSS,AUC tau at steady state,3265.44336993,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,CMAXSS,Cmax at steady state,332.720991396,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,CPREDOSES,Predose concentration at steady state,209.214479539,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,CTROUGHS,Trough concentration at steady state,215.870278115,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,CMINSS,Cmin at steady state,209.214479539,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,CAVGSS,Cavg at steady state,272.120280827,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,FLUCTSS,Fluctuation at steady state,45.3867354104,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG156H,Observed trough concentration at 156 h,215.870278115,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG72H,Observed trough concentration at 72 h,212.540732139,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG96H,Observed trough concentration at 96 h,203.478569313,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG120H,Observed trough concentration at 120 h,208.332751174,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-041,41,TRG144H,Observed trough concentration at 144 h,209.214479539,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,41,M,67,1.774252,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,AUC4_12SS,AUC 4-12 h at steady state,1817.92838179,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,AUCTAUSS,AUC tau at steady state,2925.52186328,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,CMAXSS,Cmax at steady state,316.483392186,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,CPREDOSES,Predose concentration at steady state,191.531685096,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,CTROUGHS,Trough concentration at steady state,172.857639579,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,CMINSS,Cmin at steady state,172.857639579,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,CAVGSS,Cavg at steady state,243.793488607,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,AUC0_4SS,AUC 0-4 h at steady state,1107.59348149,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG24H,Observed trough concentration at 24 h,146.664341859,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG48H,Observed trough concentration at 48 h,177.30840741,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG72H,Observed trough concentration at 72 h,178.395410429,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG96H,Observed trough concentration at 96 h,201.255533891,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG120H,Observed trough concentration at 120 h,203.045058059,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG144H,Observed trough concentration at 144 h,191.531685096,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,TRG156H,Observed trough concentration at 156 h,172.857639579,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-042,42,FLUCTSS,Fluctuation at steady state,58.9128747563,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,42,F,70,1.76574,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG48H,Observed trough concentration at 48 h,155.11813268,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG72H,Observed trough concentration at 72 h,155.977007543,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG96H,Observed trough concentration at 96 h,156.575538562,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG120H,Observed trough concentration at 120 h,153.139990817,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG144H,Observed trough concentration at 144 h,158.535538422,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG156H,Observed trough concentration at 156 h,155.847004777,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,CTROUGHS,Trough concentration at steady state,155.847004777,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,CMINSS,Cmin at steady state,145.738064858,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,CAVGSS,Cavg at steady state,222.731619572,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,FLUCTSS,Fluctuation at steady state,67.1127617911,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,AUC4_12SS,AUC 4-12 h at steady state,1661.40396836,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,AUCTAUSS,AUC tau at steady state,2672.77943487,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TRG24H,Observed trough concentration at 24 h,129.672014391,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,AUC0_4SS,AUC 0-4 h at steady state,1011.37546651,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,CPREDOSES,Predose concentration at steady state,158.535538422,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,CMAXSS,Cmax at steady state,295.219406135,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-043,43,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,43,M,73,1.863484,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG120H,Observed trough concentration at 120 h,228.707408375,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG96H,Observed trough concentration at 96 h,223.160032932,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG24H,Observed trough concentration at 24 h,147.986290304,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG48H,Observed trough concentration at 48 h,187.315393454,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG72H,Observed trough concentration at 72 h,190.510732178,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,AUC0_4SS,AUC 0-4 h at steady state,1155.63016211,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,AUC4_12SS,AUC 4-12 h at steady state,1977.39824028,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG144H,Observed trough concentration at 144 h,222.694539357,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TRG156H,Observed trough concentration at 156 h,199.656572486,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,CPREDOSES,Predose concentration at steady state,222.694539357,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,CTROUGHS,Trough concentration at steady state,199.656572486,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,CMINSS,Cmin at steady state,199.656572486,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,CAVGSS,Cavg at steady state,261.085700199,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,FLUCTSS,Fluctuation at steady state,54.0491363979,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,AUCTAUSS,AUC tau at steady state,3133.02840239,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-044,44,CMAXSS,Cmax at steady state,340.771138702,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,44,F,76,1.887404,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG144H,Observed trough concentration at 144 h,157.062689891,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,CMAXSS,Cmax at steady state,317.595855805,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG156H,Observed trough concentration at 156 h,147.717931884,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,AUCTAUSS,AUC tau at steady state,2767.01426753,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG24H,Observed trough concentration at 24 h,133.670839361,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG48H,Observed trough concentration at 48 h,153.697746468,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG72H,Observed trough concentration at 72 h,155.439284211,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG96H,Observed trough concentration at 96 h,166.677285004,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,TRG120H,Observed trough concentration at 120 h,150.386857467,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,AUC0_4SS,AUC 0-4 h at steady state,1029.9684016,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,AUC4_12SS,AUC 4-12 h at steady state,1737.04586594,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,CTROUGHS,Trough concentration at steady state,147.717931884,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,CMINSS,Cmin at steady state,147.717931884,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,CAVGSS,Cavg at steady state,230.584522294,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,CPREDOSES,Predose concentration at steady state,157.062689891,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-045,45,FLUCTSS,Fluctuation at steady state,73.6727349393,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,45,M,64,1.757524,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG24H,Observed trough concentration at 24 h,158.507494998,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG48H,Observed trough concentration at 48 h,215.699321098,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,AUC0_4SS,AUC 0-4 h at steady state,1243.0851434,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,AUC4_12SS,AUC 4-12 h at steady state,2199.13451124,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,AUCTAUSS,AUC tau at steady state,3442.21965465,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,CMAXSS,Cmax at steady state,356.478882363,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,CPREDOSES,Predose concentration at steady state,257.664697676,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,CTROUGHS,Trough concentration at steady state,220.374377692,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,CMINSS,Cmin at steady state,220.374377692,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,CAVGSS,Cavg at steady state,286.851637887,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,FLUCTSS,Fluctuation at steady state,47.4477000283,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG72H,Observed trough concentration at 72 h,221.082589104,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG96H,Observed trough concentration at 96 h,209.447003047,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG120H,Observed trough concentration at 120 h,228.326806691,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG144H,Observed trough concentration at 144 h,257.664697676,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-046,46,TRG156H,Observed trough concentration at 156 h,220.374377692,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,46,F,67,1.779226,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,CPREDOSES,Predose concentration at steady state,195.489715311,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,CTROUGHS,Trough concentration at steady state,193.728505735,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,CMINSS,Cmin at steady state,186.792873624,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,CAVGSS,Cavg at steady state,253.344416913,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,FLUCTSS,Fluctuation at steady state,46.8030651596,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG120H,Observed trough concentration at 120 h,179.45289372,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG144H,Observed trough concentration at 144 h,195.489715311,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG156H,Observed trough concentration at 156 h,193.728505735,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,CMAXSS,Cmax at steady state,305.36582615,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,AUC0_4SS,AUC 0-4 h at steady state,1105.95013141,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,AUC4_12SS,AUC 4-12 h at steady state,1934.18287155,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,AUCTAUSS,AUC tau at steady state,3040.13300296,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG48H,Observed trough concentration at 48 h,169.550535688,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG24H,Observed trough concentration at 24 h,141.006442376,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG72H,Observed trough concentration at 72 h,188.914852925,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-047,47,TRG96H,Observed trough concentration at 96 h,205.417020205,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,47,M,70,1.816055,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,CMAXSS,Cmax at steady state,339.054692027,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,AUC0_4SS,AUC 0-4 h at steady state,1204.58898256,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,AUC4_12SS,AUC 4-12 h at steady state,2349.80358936,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,AUCTAUSS,AUC tau at steady state,3554.39257192,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TMAXSS,Tmax at steady state,2,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,CPREDOSES,Predose concentration at steady state,224.956624442,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,CTROUGHS,Trough concentration at steady state,244.713953104,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,CMINSS,Cmin at steady state,224.956624442,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,CAVGSS,Cavg at steady state,296.199380994,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,FLUCTSS,Fluctuation at steady state,38.520697512,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG156H,Observed trough concentration at 156 h,244.713953104,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG48H,Observed trough concentration at 48 h,206.974449408,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG72H,Observed trough concentration at 72 h,213.065504301,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG24H,Observed trough concentration at 24 h,167.471053676,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG144H,Observed trough concentration at 144 h,224.956624442,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG96H,Observed trough concentration at 96 h,214.800164889,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-048,48,TRG120H,Observed trough concentration at 120 h,224.30320922,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,48,F,73,1.832073,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,AUCTAUSS,AUC tau at steady state,3085.98971148,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,AUC4_12SS,AUC 4-12 h at steady state,1985.91991981,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,CTROUGHS,Trough concentration at steady state,188.683760594,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,CMAXSS,Cmax at steady state,347.673041818,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TMAXSS,Tmax at steady state,4,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,CPREDOSES,Predose concentration at steady state,181.663219748,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,AUC0_4SS,AUC 0-4 h at steady state,1100.06979168,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG24H,Observed trough concentration at 24 h,132.093855937,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG48H,Observed trough concentration at 48 h,191.977816851,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG72H,Observed trough concentration at 72 h,194.455669937,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG96H,Observed trough concentration at 96 h,195.137914766,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,CMINSS,Cmin at steady state,171.836433322,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,CAVGSS,Cavg at steady state,257.16580929,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,FLUCTSS,Fluctuation at steady state,68.3748002821,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG156H,Observed trough concentration at 156 h,188.683760594,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG120H,Observed trough concentration at 120 h,182.127918086,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-049,49,TRG144H,Observed trough concentration at 144 h,181.663219748,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,49,M,76,1.889811,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,AUC4_12SS,AUC 4-12 h at steady state,1631.11570056,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,AUC0_4SS,AUC 0-4 h at steady state,996.662114088,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,CPREDOSES,Predose concentration at steady state,158.854132259,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,AUCTAUSS,AUC tau at steady state,2627.77781464,ng*h/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,CMAXSS,Cmax at steady state,292.593627323,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TMAXSS,Tmax at steady state,3,h,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,FLUCTSS,Fluctuation at steady state,64.063594629,%,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,CTROUGHS,Trough concentration at steady state,162.9662241,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,CMINSS,Cmin at steady state,152.306216746,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,CAVGSS,Cavg at steady state,218.981484554,ng/mL,Y,Python repeated-dose fixture; DV; linear-up/log-down,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG0H,Observed trough concentration at 0 h,0,ng/mL,N,Python repeated-dose baseline; excluded from NCA,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG24H,Observed trough concentration at 24 h,127.040647255,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG48H,Observed trough concentration at 48 h,161.800554023,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG72H,Observed trough concentration at 72 h,165.232042956,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG96H,Observed trough concentration at 96 h,153.828954913,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG120H,Observed trough concentration at 120 h,169.197153609,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG144H,Observed trough concentration at 144 h,158.854132259,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL
+OSP_apixaban_repeat,OSP_apixaban_repeat-050,50,TRG156H,Observed trough concentration at 156 h,162.9662241,ng/mL,Y,Python repeated-dose trough summary; DV,repeated,A,A,50,F,64,1.698349,10.0,mg,ORAL

@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('assert');
+const {browserArgs,browserLaunchOptions}=require('./nca055_browser_args.cjs');
+assert.deepStrictEqual(browserArgs(undefined),[]);
+assert.deepStrictEqual(browserArgs(''),[]);
+assert.deepStrictEqual(browserArgs('[]'),[]);
+assert.deepStrictEqual(browserLaunchOptions({PK_BROWSER_ARGS:'["--no-sandbox"]',PK_BROWSER_EXECUTABLE:'/path/browser'}),{headless:true,args:['--no-sandbox'],executablePath:'/path/browser'});
+assert.deepStrictEqual(browserArgs('["--no-sandbox","--flag=value with spaces"]'),['--no-sandbox','--flag=value with spaces']);
+for(const input of ['--no-sandbox','null','[1]','[""]','["a\\u0000b"]',JSON.stringify(Array(33).fill('x'))]) assert.throws(()=>browserArgs(input),/PK_BROWSER_ARGS/);
+console.log('PASS: structured browser arguments and invalid input rejection');

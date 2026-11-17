@@ -1,0 +1,19 @@
+STUDYID,USUBJID,APERIOD,TRTA,PARCAT1,PPSPEC,PARAMCD,PARAM,AVAL,AVALU,NCAPSTAT,PROFSTAT,EXCL_PRESENT,WARN_PRESENT
+SIM-01,SIM-01-001,1,TEST,PARENT,PLASMA,CMAX,Maximum concentration - parent,8,ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-001,1,TEST,PARENT,PLASMA,TMAX,Time of maximum concentration - parent,1,h,calculated,ok,N,N
+SIM-01,SIM-01-001,1,TEST,PARENT,PLASMA,AUCLST,AUC to last concentration - parent,16,h*ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-001,1,TEST,METAB,PLASMA,CMAXM,Maximum concentration - metabolite,4,ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-001,1,TEST,METAB,PLASMA,TMAXM,Time of maximum concentration - metabolite,1,h,calculated,ok,N,N
+SIM-01,SIM-01-001,1,TEST,METAB,PLASMA,AUCLSTM,AUC to last concentration - metabolite,8,h*ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,PARENT,PLASMA,CMAX,Maximum concentration - parent,6,ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,PARENT,PLASMA,TMAX,Time of maximum concentration - parent,1,h,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,PARENT,PLASMA,AUCLST,AUC to last concentration - parent,11.5,h*ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,METAB,PLASMA,CMAXM,Maximum concentration - metabolite,3,ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,METAB,PLASMA,TMAXM,Time of maximum concentration - metabolite,1,h,calculated,ok,N,N
+SIM-01,SIM-01-002,1,TEST,METAB,PLASMA,AUCLSTM,AUC to last concentration - metabolite,5.75,h*ng/mL,calculated,ok,N,N
+SIM-01,SIM-01-003,1,TEST,PARENT,PLASMA,CMAX,Maximum concentration - parent,5,ng/mL,calculated,partial,N,Y
+SIM-01,SIM-01-003,1,TEST,PARENT,PLASMA,TMAX,Time of maximum concentration - parent,1,h,calculated,partial,N,Y
+SIM-01,SIM-01-003,1,TEST,PARENT,PLASMA,AUCLST,AUC to last concentration - parent,,h*ng/mL,not_calculable,partial,Y,Y
+SIM-01,SIM-01-003,1,TEST,METAB,PLASMA,CMAXM,Maximum concentration - metabolite,2.5,ng/mL,calculated,partial,N,Y
+SIM-01,SIM-01-003,1,TEST,METAB,PLASMA,TMAXM,Time of maximum concentration - metabolite,1,h,calculated,partial,N,Y
+SIM-01,SIM-01-003,1,TEST,METAB,PLASMA,AUCLSTM,AUC to last concentration - metabolite,,h*ng/mL,not_calculable,partial,Y,Y

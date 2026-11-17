@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "mapping": {
+    "CONC": {
+      "STUDYID": "STUDYID",
+      "ID": "USUBJID",
+      "SAMPLE_ID": "PCREFID",
+      "ANALYTE": "PCTESTCD",
+      "CONC": "CONC",
+      "BLQ": "BLQ",
+      "MDV": "MDV",
+      "LLOQ": "LLOQ",
+      "UNIT": "UNIT"
+    },
+    "PC": {
+      "STUDYID": "STUDYID",
+      "ID": "USUBJID",
+      "SAMPLE_ID": "PCREFID",
+      "PERIOD": "PERIOD",
+      "TRT": "TRT",
+      "SAMPLE_DTM": "PCDTC"
+    },
+    "EX": {
+      "STUDYID": "STUDYID",
+      "ID": "USUBJID",
+      "PERIOD": "PERIOD",
+      "TRT": "TRT",
+      "DOSE_ID": "EXSEQ",
+      "DOSE_DTM": "EXSTDTC"
+    }
+  },
+  "sample_keys": [
+    "STUDYID",
+    "ID",
+    "SAMPLE_ID"
+  ],
+  "observation_keys": [
+    "STUDYID",
+    "ID",
+    "SAMPLE_ID",
+    "ANALYTE"
+  ],
+  "profile_keys": [
+    "STUDYID",
+    "ID",
+    "PERIOD",
+    "ANALYTE"
+  ],
+  "dose_group_keys": [
+    "STUDYID",
+    "ID",
+    "PERIOD"
+  ],
+  "dose_record_keys": [
+    "STUDYID",
+    "ID",
+    "DOSE_ID"
+  ],
+  "dose_reference": {
+    "mode": "first"
+  },
+  "datetime": {
+    "sample_type": "iso",
+    "dose_type": "iso",
+    "utc_offset": "+00:00"
+  },
+  "unmatched": "error",
+  "missing_datetime": "error",
+  "dose_history_confirmed": true
+}

@@ -1,0 +1,10 @@
+Reference dataset: datasets::Theoph in R 4.6.1.
+https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/Theoph.html
+132 original observations, 12 subjects; time in hours, concentration in mg/L.
+Manual independent adjacent-segment formulas are implemented in build_reference.R.
+Linear area = dt*(C1+C2)/2. For descending positive concentrations only,
+lin-up/log-down area = dt*(C1-C2)/log(C1/C2); all other segments are linear.
+No app preprocessing or app NCA function participates in expected-value generation.
+All 24 manual AUC results agreed with installed PKNCA 0.12.1 within 1e-12 relative tolerance.
+This is an independent numerical cross-check, not Phoenix or regulatory validation.
+Generated with R version 4.6.1 (2026-06-24)

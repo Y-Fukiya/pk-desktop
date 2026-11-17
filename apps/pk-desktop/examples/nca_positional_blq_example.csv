@@ -1,0 +1,10 @@
+ID,ANALYTE,PERIOD,TIME,CONC,BLQ,LLOQ,MDV,UNIT
+001,parent,1,-0.25,<0.2,1,0.2,0,ng/mL
+001,parent,1,0,<0.2,1,0.2,0,ng/mL
+001,parent,1,0.5,<0.2,1,0.2,0,ng/mL
+001,parent,1,1,8,0,0.2,0,ng/mL
+001,parent,1,2,<0.2,1,0.2,0,ng/mL
+001,parent,1,4,4,0,0.2,0,ng/mL
+001,parent,1,8,1,0,0.2,0,ng/mL
+001,parent,1,12,<0.2,1,0.2,0,ng/mL
+001,parent,1,24,<0.2,1,0.2,0,ng/mL

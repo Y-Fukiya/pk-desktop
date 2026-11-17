@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "profile": {
+    "id": "ID",
+    "groups": ["STUDYID", "PERIOD"],
+    "study": "STUDYID",
+    "period": "PERIOD"
+  },
+  "dm": {
+    "keys": {
+      "ID": "ID",
+      "STUDYID": "STUDYID"
+    },
+    "columns": {
+      "DM_SEX": "SEX"
+    }
+  },
+  "vs": {
+    "keys": {
+      "ID": "ID",
+      "STUDYID": "STUDYID",
+      "PERIOD": "PERIOD"
+    },
+    "scope": "keys",
+    "test_column": "TEST",
+    "value_column": "VALUE",
+    "unit_column": "VUNIT",
+    "datetime_column": "VSDTC",
+    "visit_column": "VISIT",
+    "selection": {
+      "mode": "filter",
+      "column": "BASELINE",
+      "values": [
+        "Y"
+      ]
+    },
+    "baseline": {
+      "mode": "period",
+      "confirmed": true
+    },
+    "measurements": [
+      {
+        "name": "VS_WEIGHT",
+        "test": "WEIGHT",
+        "role": "weight"
+      },
+      {
+        "name": "VS_HEIGHT",
+        "test": "HEIGHT",
+        "role": "height"
+      },
+      {
+        "name": "VS_BSA",
+        "test": "BSA",
+        "role": "bsa"
+      },
+      {
+        "name": "VS_BMI",
+        "test": "BMI",
+        "role": "carry"
+      }
+    ]
+  }
+}

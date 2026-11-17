@@ -1,0 +1,48 @@
+{
+  "id": "ID",
+  "groups": [
+    "STUDYID",
+    "PERIOD"
+  ],
+  "time": "TIME",
+  "concentration": "CONC",
+  "unit_column": "UNIT",
+  "auc_method": "lin up/log down",
+  "terminal_method": "auto",
+  "dosing_context": "single",
+  "dose_history_confirmed": true,
+  "dose": {
+    "amount_column": "DOSE_AMOUNT",
+    "unit_column": "DOSE_UNIT",
+    "basis": "absolute",
+    "meaning": "actual_administered",
+    "reference": "declared_profile",
+    "route_column": "ROUTE",
+    "extravascular_values": [
+      "ORAL"
+    ]
+  },
+  "body_size": {
+    "weight": {
+      "value_column": "VS_WEIGHT",
+      "unit_column": "VS_WEIGHT_UNIT"
+    },
+    "bsa": {
+      "mode": "recorded",
+      "value_column": "VS_BSA",
+      "unit_column": "VS_BSA_UNIT"
+    }
+  },
+  "derived_parameters": [
+    "CMAXD",
+    "AUCLSTD",
+    "AUCIFOD",
+    "CLFO",
+    "VZFO",
+    "CLFOWT",
+    "VZFOWT",
+    "CLFOBSA",
+    "VZFOBSA"
+  ],
+  "c0_method": "none"
+}

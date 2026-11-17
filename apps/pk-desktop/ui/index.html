@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>PK Desktop</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><main>
+<div class="eyebrow">PKDUMMY HARNESS · DESKTOP / 0.61.0-alpha</div>
+<h1>PK Desktop</h1><p class="lead">データを開き、tealで確認。Codexとも同じ解析条件を共有します。</p>
+<div class="badge">探索・QC用の試作 / ダミーデータ専用</div>
+<form id="launch">
+<label>プロジェクトの保存先<input id="project" required spellcheck="false"></label>
+<label>入力フォルダ <span>ADNCA.csv と ADPP.csv を含むフォルダ</span><input id="bundle" required spellcheck="false"></label>
+<label>Rscript の場所<input id="rscript" required spellcheck="false"></label>
+<div class="actions"><button id="start" type="submit">プロジェクトを開く</button><button id="stop" type="button" class="secondary">解析を終了</button></div>
+</form>
+<p id="status" role="status">環境を確認しています…</p>
+<details><summary>Codexへの接続設定</summary><p>初回のみ、以下をCodexのMCP設定に追加します。設定ファイルの自動変更は行いません。</p><pre id="config"></pre><p>接続後は「pkappで利用可能なパラメータと現在の設定を確認して」と依頼できます。</p></details>
+<footer>ADNCA：濃度 ／ ADPP：計算済みPKパラメータ<br>集計CSVと実行記録を保存し、選択したRunからWord帳票を作成できます。</footer>
+</main></body></html>

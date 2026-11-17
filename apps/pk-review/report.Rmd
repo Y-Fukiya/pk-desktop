@@ -1,0 +1,127 @@
+---
+title: "PK simulation review"
+output:
+  html_document:
+    self_contained: true
+    toc: true
+    theme: cosmo
+  word_document:
+    toc: false
+    reference_docx: reference.docx
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+cfg <- jsonlite::fromJSON("view.json")
+counts <- jsonlite::fromJSON("counts.json")
+tables <- readRDS("tables.rds")
+identity <- jsonlite::fromJSON("report_identity.json")
+report_table <- function(d) {
+  ft <- flextable::flextable(d)
+  ft <- flextable::theme_box(ft)
+  ft <- flextable::font(ft, fontname = "Arial", part = "all")
+  ft <- flextable::fontsize(ft, size = 9, part = "all")
+  ft <- flextable::bg(ft, bg = "#E6EEF2", part = "header")
+  ft <- flextable::color(ft, color = "#000000", part = "all")
+  ft <- flextable::border(ft, border = officer::fp_border(color = "#D9D9D9", width = .5), part = "all")
+  ft <- flextable::padding(ft, padding = 5, part = "all")
+  ft <- flextable::valign(ft, valign = "center", part = "all")
+  ft <- flextable::align(ft, align = "left", part = "all")
+  ft <- flextable::width(ft, width = if (ncol(d) == 6) c(.65, 1.1, .4, 1.15, 1.6, 1.1) else rep(6 / ncol(d), ncol(d)))
+  ft <- flextable::set_table_properties(ft, layout = "fixed", opts_word = list(split = FALSE, repeat_headers = TRUE))
+  flextable::paginate(ft, init = nrow(d) <= 8, hdr_ftr = TRUE)
+}
+```
+
+This report summarizes synthetic PK data generated for workflow development. ADNCA contains concentration records; ADPP contains precomputed PK parameters. The figures and tables use the same saved settings as the teal application.
+
+## Report identity
+
+```{r}
+report_table(data.frame(
+  Item = c("Title", "Report ID / UTC", "Run / Study", "Analyte", "Selected cohort", "Cohort SHA256 (prefix)", "Configuration SHA256 (prefix)", "Input SHA256 (prefix)", "Change history"),
+  Value = c(cfg$title, paste(identity$report_id, identity$created_utc), paste(identity$run_id, identity$study, sep = " / "),
+            identity$analyte, identity$cohort, substr(identity$cohort_sha256, 1, 24), substr(identity$config_sha256, 1, 24), substr(identity$input_sha256, 1, 24), identity$history_status)
+))
+```
+
+The report ID links this document to REPORT_MANIFEST.json, which contains the full input, configuration, source and output fingerprints.
+
+## Input quality checks
+
+```{r}
+if (length(identity$warnings)) report_table(data.frame(Warning = unlist(identity$warnings)))
+qc <- tables$quality_checks
+if (nrow(qc)) {
+  report_table(as.data.frame(table(Check = qc$check, Status = qc$status)))
+} else {
+  report_table(data.frame(Status = "No upstream trough stability QC metadata was provided."))
+}
+```
+
+```{r}
+if (nrow(qc)) report_table(unique(qc[c("check", "rule")]))
+```
+
+Complete subject-level checks are in quality_checks.csv. PASS is the upstream harness verdict and does not alone establish clinical steady state.
+
+## Analysis conditions
+
+```{r}
+conditions <- data.frame(
+  Setting = c("View revision", "Subjects", "Concentration profile", "Time axis", "Scale", "Grouping", "Concentration summary", "Interval", "MDV records", "BLQ records", "ADPP parameters", "ADPP analysis records"),
+  Value = c(cfg$revision, counts$subjects, cfg$profile, cfg$x, cfg$scale, cfg$group_by, cfg$statistic, cfg$interval, if (cfg$include_mdv) "Included as recorded" else "Excluded", cfg$blq, paste(cfg$parameters, collapse = ", "), "ANL01FL = Y when the flag is present")
+)
+report_table(conditions)
+```
+
+`r counts$concentration_rows` concentration records and `r counts$parameter_rows` parameter records were selected. `r counts$excluded_concentration_rows` concentration records were excluded by MDV or BLQ rules; `r counts$excluded_adpp_rows` parameter records were excluded by the analysis flag.
+
+`r counts$subjects` subjects were selected; `r counts$concentration_subjects` contributed nonmissing concentrations and `r counts$parameter_subjects` contributed nonmissing parameters. Table N is the denominator for each displayed estimate.
+
+## Concentration time profile
+
+![](concentrations.png){width=6in}
+
+The shaded band is the selected SD or percentile interval, not a confidence interval. Nonpositive concentrations are hidden only on the logarithmic plot; summary statistics are calculated before that display transformation.
+
+## Concentration summary
+
+```{r}
+report_table(tables$concentrations)
+```
+
+N counts nonmissing values. Geometric means use positive values only; their separate denominator is shown. NE means not estimable. Full precision statistics and missing counts are retained in the accompanying CSV files.
+
+## PK parameter distributions
+
+![](parameters.png){width=6in}
+
+## PK parameter summary
+
+```{r}
+report_table(tables$parameters)
+```
+
+ADPP values are not recalculated when the concentration profile, display scale or MDV and BLQ display settings change. Available calculation metadata is shown below; “Not provided” means that the method was not supplied.
+
+```{r}
+report_table(tables$methods)
+```
+
+For parameters generated by the adapter, AUCFSTL and AUCFSTIF start at the first included observation when time zero was excluded. NCA_START_H and NCA_END_H identify the observed interval. No baseline value is imputed; these names must not be interpreted as AUC from time zero.
+
+```{r, results='asis'}
+if (isTRUE(cfg$include_listings)) {
+  cat("\n## Individual concentration listing\n\n")
+  flextable::flextable_to_rmd(report_table(tables$concentration_listing))
+  cat("\n## Individual PK parameter listing\n\n")
+  flextable::flextable_to_rmd(report_table(tables$parameter_listing))
+}
+```
+
+## Reproducibility
+
+The export includes the saved view and local change history, complete selected records, full precision summaries, original bundle inputs, frozen source code, figures, environment versions and REPORT_MANIFEST.json. Individual records are exported in full as CSV whether or not they are included in this document.
+
+With the recorded R and package versions installed, run `Rscript reproduce.R` in the report directory to verify checksums and recalculate both summary tables from the frozen inputs and source. Rendering report.Rmd alone reuses the saved tables and is not a recalculation. Recorded actor names are self-declared; this local history is not an authenticated electronic signature or a tamper-proof regulatory audit trail.

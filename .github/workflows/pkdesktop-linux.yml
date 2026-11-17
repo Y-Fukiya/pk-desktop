@@ -1,0 +1,84 @@
+name: PK Desktop Linux recovery
+on:
+  workflow_dispatch:
+  push:
+    paths: ['apps/pk-desktop/**', '.github/workflows/pkdesktop-linux.yml']
+  pull_request:
+    paths: ['apps/pk-desktop/**', '.github/workflows/pkdesktop-linux.yml']
+permissions:
+  contents: read
+jobs:
+  recovery:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        ps-version: ['1.7.6', '1.9.1']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.1'
+          use-public-rspm: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libv8-dev
+      - name: Install application and Python dependencies
+        run: |
+          Rscript --vanilla apps/pk-desktop/install.R
+          python -m pip install -r apps/pk-desktop/requirements-mcp.txt
+      - name: Install target ps release
+        env:
+          PS_VERSION: ${{ matrix.ps-version }}
+        run: |
+          Rscript --vanilla -e 'lib <- "./.runtime/R-library"; v <- Sys.getenv("PS_VERSION"); urls <- c(sprintf("https://cran.r-project.org/src/contrib/ps_%s.tar.gz", v), sprintf("https://cran.r-project.org/src/contrib/Archive/ps/ps_%s.tar.gz", v)); ok <- FALSE; for (u in urls) { result <- tryCatch({ install.packages(u, repos=NULL, type="source", lib=lib); identical(as.character(packageVersion("ps", lib.loc=lib)), v) }, error=function(e) FALSE); if (isTRUE(result)) { ok <- TRUE; break } }; stopifnot(ok); stopifnot(as.character(packageVersion("ps", lib.loc=lib)) == v)'
+      - name: Run Linux recovery and period-order checks
+        run: bash apps/pk-desktop/release/linux_recovery_check.sh
+      - name: Run full bundled verification
+        run: python apps/pk-desktop/release/verify_release.py --output-dir "$RUNNER_TEMP/pk-verify"
+      - name: Upload verification logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-verification-ps-${{ matrix.ps-version }}
+          path: ${{ runner.temp }}/pk-verify
+          if-no-files-found: warn
+  browser:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.1'
+          use-public-rspm: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libfontconfig1-dev libfreetype6-dev libharfbuzz-dev libfribidi-dev libv8-dev
+      - name: Install R application dependencies
+        run: Rscript --vanilla apps/pk-desktop/install.R
+      - name: Install Playwright and Chromium
+        run: |
+          npm install --prefix "$RUNNER_TEMP/pk-browser" --no-save --no-package-lock --ignore-scripts --no-audit --no-fund playwright@1.61.1
+          "$RUNNER_TEMP/pk-browser/node_modules/.bin/playwright" install --with-deps chromium
+      - name: Test synthetic Shiny UI in Chromium
+        env:
+          NODE_PATH: ${{ runner.temp }}/pk-browser/node_modules
+          PK_BROWSER_ARGS: '["--no-sandbox"]'
+        run: |
+          set -o pipefail
+          bash apps/pk-desktop/release/run_browser_checks.sh 2>&1 | tee "$RUNNER_TEMP/pk-browser.log"
+      - name: Upload browser test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-synthetic-browser-log
+          path: ${{ runner.temp }}/pk-browser.log
+          if-no-files-found: warn

@@ -1,0 +1,6 @@
+{
+  "identifier": "launcher-only",
+  "description": "Native commands belong only to the local launcher; the remote teal WebView has no native permissions.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

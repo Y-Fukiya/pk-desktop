@@ -1,0 +1,5 @@
+"ID","STUDYID","PERIOD","TEST","VALUE","VUNIT","BASELINE","VISIT","VSDTC"
+"001","A",1,"WEIGHT",50,"kg","Y","Period 1 baseline","2026-11-01T08:30:00Z"
+"001","A",1,"HEIGHT",200,"cm","Y","Period 1 baseline","2026-11-01T08:30:00Z"
+"001","A",1,"BSA",2,"m2","Y","Period 1 baseline","2026-11-01T08:30:00Z"
+"001","A",1,"BMI",12.5,"kg/m2","Y","Period 1 baseline","2026-11-01T08:30:00Z"

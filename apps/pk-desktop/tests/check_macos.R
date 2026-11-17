@@ -1,0 +1,81 @@
+# Entrypoint regression tests; no normal callr worker is started on Linux.
+library(testthat)
+local({
+  root <- normalizePath(getwd())
+  script <- file.path(root, "apps/pk-desktop/check_macos.R")
+  previous <- getOption("pkdesktop.check_macos.autorun")
+  options(pkdesktop.check_macos.autorun = FALSE)
+  on.exit(options(pkdesktop.check_macos.autorun = previous), add = TRUE)
+  checker <- source(script, local = new.env(parent = globalenv()))$value
+  scratch <- tempfile("check entrypoint with spaces ")
+  dir.create(scratch)
+  on.exit(unlink(scratch, recursive = TRUE), add = TRUE)
+  fixture <- function(name, lines) {
+    path <- file.path(scratch, name)
+    writeLines(c("#!/bin/bash", lines), path); Sys.chmod(path, "0755")
+    path
+  }
+  test_that("all current baseline groups are planned and partial options cannot imply a full pass", {
+    baseline <- checker$phases[!vapply(checker$phases, `[[`, logical(1), "worker")]
+    expect_length(baseline, 32)
+    expect_equal(sum(vapply(baseline, `[[`, integer(1), "groups")), 216)
+    expect_identical(checker$parse_args(c("--phases", "grid"))[["phases"]], "grid")
+    expect_error(checker$parse_args(c("--skip-workers", "--skip-workers")), "重複")
+    expect_error(checker$parse_args("--output-dir"), "未完了")
+    expect_error(checker$run("unknown", file.path(scratch, "never created"), rscript = "/missing"), "既知")
+    expect_false(dir.exists(file.path(scratch, "never created")))
+    expect_identical(jsonlite::fromJSON(checker$json(list(message = 'quote" backslash\\\n日本語', missing = NA_integer_, ok = TRUE))),
+      list(message = 'quote" backslash\\\n日本語', missing = NULL, ok = TRUE))
+  })
+  test_that("nonzero child status and a missing completion receipt always fail and retain logs", {
+    fake <- fixture("fake Rscript", c('printf "%s\\n" "$@"', "exit 7"))
+    target <- file.path(scratch, "failing phase"); dir.create(target)
+    phase <- checker$run_phase(checker$phases$grid, fake, target)
+    expect_identical(phase$status, "failed"); expect_identical(phase$exit_code, 7L)
+    args <- readLines(file.path(target, "grid.log"))
+    expect_identical(args[[2]], script)
+    expect_identical(tail(args, 1L), file.path(target, "grid.rds"))
+    fake_ok <- fixture("fake success Rscript", "exit 0")
+    missing <- checker$run_phase(checker$phases$grid, fake_ok, target)
+    expect_identical(missing$status, "failed")
+    expect_match(missing$error, "完了記録")
+    result <- checker$run("grid", file.path(scratch, "failed summary"), rscript = fake)
+    expect_false(result$automated_R$complete)
+    expect_identical(result$automated_R$status, "failed")
+    expect_true(all(vapply(result$manual_acceptance, function(x) identical(x$status, "pending"), logical(1))))
+    expect_true(file.exists(file.path(result$output_dir, "result.json")))
+    expect_error(checker$run("grid", result$output_dir, rscript = fake), "新しいフォルダ")
+  })
+  test_that("double-click scripts preserve spaced arguments and exit status without choosing a project", {
+    bin <- file.path(scratch, "bin"); dir.create(bin)
+    uname <- file.path(bin, "uname"); writeLines(c("#!/bin/bash", "echo Darwin"), uname); Sys.chmod(uname, "0755")
+    fake <- fixture("shell fake Rscript", c('printf "%s\\n" "$@"', "exit 9"))
+    old <- Sys.getenv(c("PATH", "PK_RSCRIPT", "PK_DESKTOP_NO_PAUSE"), unset = NA_character_)
+    on.exit(for (key in names(old)) if (is.na(old[[key]])) Sys.unsetenv(key) else do.call(Sys.setenv, stats::setNames(list(old[[key]]), key)), add = TRUE)
+    Sys.setenv(PATH = paste(bin, Sys.getenv("PATH"), sep = .Platform$path.sep), PK_RSCRIPT = fake, PK_DESKTOP_NO_PAUSE = "1")
+    for (name in c("check_macos.command", "launch_macos.command")) {
+      logfile <- file.path(scratch, paste0(name, ".log"))
+      option <- if (name == "check_macos.command") "--output-dir" else "--project"
+      selected <- file.path(scratch, "a user's chosen folder")
+      status <- system2("bash", c(shQuote(file.path(root, "apps/pk-desktop", name)), option, shQuote(selected)), stdout = logfile, stderr = logfile)
+      expect_equal(status, 9L)
+      args <- readLines(logfile)
+      expect_identical(tail(args, 2L), c(option, selected))
+      if (name == "launch_macos.command") expect_false("--mode" %in% args)
+    }
+  })
+  test_that("an actual isolated grid phase records all six groups and keeps manual checks pending", {
+    output <- file.path(scratch, "actual grid only")
+    result <- checker$run("grid", output, rscript = file.path(R.home("bin"), "Rscript"))
+    expect_identical(result$phases$grid$status, "passed")
+    expect_equal(result$phases$grid$detail$groups_run, 6)
+    expect_equal(result$automated_R$baseline_groups_passed, 6)
+    expect_identical(result$automated_R$status, "partial")
+    expect_false(result$automated_R$complete)
+    expect_identical(result$phases$diagnostic$status, "not_run")
+    expect_identical(result$phases$report_workers$status, "not_run")
+    expect_true(result$source_unchanged)
+    expect_true(all(vapply(result$manual_acceptance, function(x) x$status == "pending", logical(1))))
+    expect_identical(jsonlite::read_json(file.path(output, "result.json"))$automated_R$status, "partial")
+  })
+})

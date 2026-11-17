@@ -1,0 +1,10 @@
+source("apps/pk-desktop/tests/nca024_core.R")
+test_that("derived diagnostics and controls are localised", {
+  expect_equal(core$desktop_nca_diagnostic_label("算出不可：CMAXD, AUCLSTD"), "算出不可：CMAXD, AUCLSTD")
+  expect_match(core$desktop_nca_diagnostic_label("CMAXD: outside_range_weight"), "体重")
+  expect_true(is.na(core$desktop_nca_diagnostic_label("CMAXD: <script>")))
+  html <- as.character(core$desktop_nca_derived_controls(fixture024()$data, list(), identity))
+  expect_match(html, "投与量で正規化したCmax"); expect_match(html, "解析単位ごとの申告値")
+  expect_match(html, "投与量で正規化したAUClast"); expect_match(html, "投与量で正規化したAUC∞（実測Clast基準）", fixed=TRUE)
+  expect_false(grepl("Dose-normalized Cmax", html, fixed=TRUE))
+})

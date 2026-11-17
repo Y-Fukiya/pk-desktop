@@ -1,0 +1,5 @@
+# FastMCP imports in this adapter use the official Python SDK v1 API.
+mcp>=1.26,<2
+tomli>=2; python_version < "3.11"
+# Optional legacy bundle import and PK Review adapter.
+PyYAML>=6.0

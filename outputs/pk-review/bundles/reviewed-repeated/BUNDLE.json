@@ -1,0 +1,409 @@
+{
+  "version": 2,
+  "run_id": "reviewed-repeated",
+  "datasets": {
+    "ADNCA": "Concentration records",
+    "ADPP": "Precomputed PK parameter records"
+  },
+  "parameter_source": "Legacy NCA values preserved; ADPP names and NCA_START_H/NCA_END_H identify the actual interval",
+  "warnings": [],
+  "quality_checks": [
+    {
+      "USUBJID": "OSP_apixaban_repeat-001",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000778242705389",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-002",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.0027183190909",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-003",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00026869004646",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-004",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000662865141784",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-005",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000187862140773",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-006",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000458329538163",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-007",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000412918169102",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-008",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.0034402790718",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-009",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000337740059215",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-010",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00224559361581",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-011",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000776615926197",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-012",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000383333270615",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-013",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00235648172804",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-014",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000918145627469",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-015",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00152471491545",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-016",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "4.20890052089e-05",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-017",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "9.91962975892e-05",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-018",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000594816274621",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-019",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000354818948317",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-020",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000102578147707",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-021",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000147893529587",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-022",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00174667104096",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-023",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00113103175644",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-024",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000186837791065",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-025",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00111481272505",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-026",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000307311743196",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-027",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00170092363628",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-028",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00157237496818",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-029",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "1.39581299533e-05",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-030",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000624102637567",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-031",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00224607634492",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-032",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000499948461017",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-033",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000867535922356",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-034",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00257817753395",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-035",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000119763564215",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-036",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000379284691819",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-037",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00395629352162",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-038",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000142407645364",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-039",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000192139700864",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-040",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00201605705811",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-041",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00120409833363",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-042",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.0012858642913",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-043",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000124074192102",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-044",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00238271403623",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-045",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000110481213294",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-046",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00106799149647",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-047",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00087209687506",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-048",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.00205662439289",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-049",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000634472630752",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    },
+    {
+      "USUBJID": "OSP_apixaban_repeat-050",
+      "check": "PRED_TROUGH_STABLE_QC",
+      "status": "PASS",
+      "relative_change": "0.000420525979289",
+      "rule": "Harness IPRED check: abs(C144-C120)/C144 <= 0.05; clinical steady state is not established by this flag alone"
+    }
+  ],
+  "import_code_hashes": {
+    "tools/pk_review.py": "6947c52e21d1d0af17ffc82762c5a3470d8363c4ffd744d90cb7cb8c7cc2be59",
+    "tools/make_adnca.R": "b8f7d4c822e9d4a78112ad2c0b438e1fc009f85423a1c202dafdeca28fb6e9ba"
+  },
+  "source_files": [
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/ADPC.csv",
+      "sha256": "e1ed29c129e46b47d19462e3c26f025a35c6a0460b9acbccdce3efc77e991751"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/NCA_SS_INPUT.csv",
+      "sha256": "cb237dc3380a4e05d5e74b8e19434e721e6fcb6dd854d32e0cb8207d367626fc"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/TROUGH_INPUT.csv",
+      "sha256": "ac78a87e5724dd60794e582e2441d06c1d54ba50b919e5b7f25de454246f61f8"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/TROUGH_SUMMARY.csv",
+      "sha256": "6cf256a62c6b66266679c71c4c667e1f30ba757a58a470e799b8101da42ef4d6"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/NCA_SS_SUMMARY.csv",
+      "sha256": "01d3d1815c39b764ea77348667502a89b99c796e859aed0a88ecf1a83eba83c5"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/TROUGH_SUMMARY.csv",
+      "sha256": "6cf256a62c6b66266679c71c4c667e1f30ba757a58a470e799b8101da42ef4d6"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/MANIFEST.yml",
+      "sha256": "51412c97b5b9a96d279ce37c0663171296942df18c6b48156c2b107085ca3c31"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/MANIFEST.yml",
+      "sha256": "eaa51cf51efdeaf0418525edcd02d4d428ecc73f8fba24a8e91c6516a47b3b76"
+    },
+    {
+      "path": "outputs/demo_repeated_oral_trough_ss_50/apixaban/workflow/analysis_inputs/REPEATED_NCA_MANIFEST.yml",
+      "sha256": "ad888c95c4f289906aba2c6ec1f5df7de46d0ab877d1b3a0c51990636fc5adfb"
+    }
+  ],
+  "files": {
+    "ADNCA.csv": "e01bf33dc9105467459dec89ab523e640173b22f711a473a48b133ce2993324d",
+    "ADPP.csv": "ec13f44d0477bbf424f4e6a48f39b1ba3c66743d25dff668a678a531d01133a1"
+  },
+  "source_path_basis": "Paths relative to original harness root; original source files are not included in this application package."
+}

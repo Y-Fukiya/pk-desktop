@@ -1,0 +1,1789 @@
+{
+  "contract_version": "pkapp-nca-18",
+  "app_version": "0.61.0-alpha",
+  "preparation_steps": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$defs": {
+      "filter": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "filter"
+          },
+          "column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "operator": {
+            "enum": [
+              "eq",
+              "ne",
+              "in",
+              "ge",
+              "le",
+              "gt",
+              "lt",
+              "missing",
+              "present"
+            ]
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "number",
+                "boolean"
+              ]
+            }
+          }
+        },
+        "required": [
+          "op",
+          "column",
+          "operator"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "operator": {
+                  "enum": [
+                    "missing",
+                    "present"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "values": {
+                  "maxItems": 0
+                }
+              }
+            },
+            "else": {
+              "required": [
+                "values"
+              ],
+              "properties": {
+                "values": {
+                  "minItems": 1
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "operator": {
+                  "enum": [
+                    "eq",
+                    "ne",
+                    "ge",
+                    "le",
+                    "gt",
+                    "lt"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "values": {
+                  "maxItems": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      "select": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "select"
+          },
+          "columns": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "op",
+          "columns"
+        ],
+        "additionalProperties": false
+      },
+      "rename": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "rename"
+          },
+          "column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "op",
+          "column",
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "convert": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "convert"
+          },
+          "column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "character",
+              "numeric"
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "column",
+          "type"
+        ],
+        "additionalProperties": false
+      },
+      "sort": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "sort"
+          },
+          "columns": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "decreasing": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "op",
+          "columns"
+        ],
+        "additionalProperties": false
+      },
+      "distinct": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "distinct"
+          },
+          "columns": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "op",
+          "columns"
+        ],
+        "additionalProperties": false
+      },
+      "predicate": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "column": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "column"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "value": {
+                "oneOf": [
+                  {
+                    "type": [
+                      "string",
+                      "number",
+                      "boolean"
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": [
+                        "string",
+                        "number",
+                        "boolean"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "!",
+                  "is.na"
+                ]
+              },
+              "args": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 1,
+                "items": {
+                  "$ref": "#/$defs/predicate"
+                }
+              }
+            },
+            "required": [
+              "op",
+              "args"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "&",
+                  "|",
+                  "%in%",
+                  ">=",
+                  "<=",
+                  ">",
+                  "<",
+                  "==",
+                  "!="
+                ]
+              },
+              "args": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "$ref": "#/$defs/predicate"
+                }
+              }
+            },
+            "required": [
+              "op",
+              "args"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "where": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "where"
+          },
+          "predicate": {
+            "$ref": "#/$defs/predicate"
+          }
+        },
+        "required": [
+          "op",
+          "predicate"
+        ],
+        "additionalProperties": false
+      },
+      "elapsed_time": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "elapsed_time"
+          },
+          "sample_column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dose_column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "output": {
+            "type": "string",
+            "minLength": 1
+          },
+          "utc_offset": {
+            "type": "string",
+            "pattern": "^[+-][0-9]{2}:[0-9]{2}$"
+          },
+          "invalid_datetime": {
+            "enum": [
+              "missing",
+              "error"
+            ]
+          },
+          "sample_datetime_type": {
+            "enum": [
+              "iso",
+              "sas_seconds",
+              "unix_seconds"
+            ]
+          },
+          "dose_datetime_type": {
+            "enum": [
+              "iso",
+              "sas_seconds",
+              "unix_seconds"
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "sample_column",
+          "dose_column"
+        ],
+        "additionalProperties": false
+      },
+      "blq_rules": {
+        "type": "object",
+        "properties": {
+          "op": {
+            "const": "blq_rules"
+          },
+          "mode": {
+            "enum": [
+              "legacy",
+              "positional"
+            ]
+          },
+          "profile_columns": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "concentration": {
+            "type": "string",
+            "minLength": 1
+          },
+          "time": {
+            "type": "string",
+            "minLength": 1
+          },
+          "blq_column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mdv_column": {
+            "type": "string"
+          },
+          "predose_column": {
+            "type": "string"
+          },
+          "flag_convention": {
+            "enum": [
+              "strict",
+              "y_blank"
+            ]
+          },
+          "zero_time": {
+            "enum": [
+              "error",
+              "pre",
+              "post"
+            ]
+          },
+          "time_origin": {
+            "type": "number"
+          },
+          "pre_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "post_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "first_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "middle_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "last_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "all_blq_rule": {
+            "enum": [
+              "keep",
+              "zero",
+              "half_lloq",
+              "exclude"
+            ]
+          },
+          "lloq_source": {
+            "enum": [
+              "constant",
+              "column"
+            ]
+          },
+          "lloq_column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "lloq_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "op",
+          "concentration",
+          "time",
+          "blq_column",
+          "pre_rule"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "mode"
+              ],
+              "properties": {
+                "mode": {
+                  "const": "positional"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "profile_columns",
+                "first_rule",
+                "middle_rule",
+                "last_rule"
+              ]
+            },
+            "else": {
+              "required": [
+                "post_rule"
+              ]
+            }
+          },
+          {
+            "if": {
+              "required": [
+                "lloq_source"
+              ],
+              "properties": {
+                "lloq_source": {
+                  "const": "column"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "lloq_column"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "type": "array",
+    "maxItems": 100,
+    "items": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/filter"
+        },
+        {
+          "$ref": "#/$defs/select"
+        },
+        {
+          "$ref": "#/$defs/rename"
+        },
+        {
+          "$ref": "#/$defs/convert"
+        },
+        {
+          "$ref": "#/$defs/sort"
+        },
+        {
+          "$ref": "#/$defs/distinct"
+        },
+        {
+          "$ref": "#/$defs/where"
+        },
+        {
+          "$ref": "#/$defs/elapsed_time"
+        },
+        {
+          "$ref": "#/$defs/blq_rules"
+        }
+      ]
+    }
+  },
+  "assembly_specification": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "NCA assembly specification v1",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "version",
+      "mapping",
+      "sample_keys",
+      "profile_keys",
+      "dose_group_keys",
+      "dose_record_keys",
+      "observation_keys",
+      "dose_reference",
+      "datetime",
+      "unmatched",
+      "missing_datetime",
+      "dose_history_confirmed"
+    ],
+    "properties": {
+      "version": {
+        "const": 1
+      },
+      "mapping": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "CONC",
+          "PC",
+          "EX"
+        ],
+        "properties": {
+          "CONC": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "PC": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "EX": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      },
+      "sample_keys": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "profile_keys": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "dose_group_keys": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "dose_record_keys": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "observation_keys": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "dose_reference": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "mode"
+            ],
+            "properties": {
+              "mode": {
+                "enum": [
+                  "first",
+                  "last"
+                ]
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "mode",
+              "predicate"
+            ],
+            "properties": {
+              "mode": {
+                "const": "selected"
+              },
+              "predicate": {
+                "$ref": "#/$defs/predicate"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "mode",
+              "assignments"
+            ],
+            "properties": {
+              "mode": {
+                "const": "per_profile"
+              },
+              "assignments": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "profile",
+                    "dose"
+                  ],
+                  "properties": {
+                    "profile": {
+                      "type": "object",
+                      "minProperties": 1,
+                      "additionalProperties": {
+                        "type": [
+                          "string",
+                          "number"
+                        ]
+                      }
+                    },
+                    "dose": {
+                      "type": "object",
+                      "minProperties": 1,
+                      "additionalProperties": {
+                        "type": [
+                          "string",
+                          "number"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "datetime": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sample_type",
+          "dose_type",
+          "utc_offset"
+        ],
+        "properties": {
+          "sample_type": {
+            "enum": [
+              "iso",
+              "sas_seconds",
+              "unix_seconds"
+            ]
+          },
+          "dose_type": {
+            "enum": [
+              "iso",
+              "sas_seconds",
+              "unix_seconds"
+            ]
+          },
+          "utc_offset": {
+            "type": "string",
+            "pattern": "^[+-](0[0-9]|1[0-4]):[0-5][0-9]$"
+          }
+        }
+      },
+      "unmatched": {
+        "enum": [
+          "missing",
+          "error"
+        ]
+      },
+      "missing_datetime": {
+        "enum": [
+          "missing",
+          "error"
+        ]
+      },
+      "dose_history_confirmed": {
+        "type": "boolean"
+      }
+    },
+    "$defs": {
+      "predicate": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "column": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "column"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "value": {
+                "oneOf": [
+                  {
+                    "type": [
+                      "string",
+                      "number",
+                      "boolean"
+                    ]
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": [
+                        "string",
+                        "number",
+                        "boolean"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "required": [
+              "value"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "!",
+                  "is.na"
+                ]
+              },
+              "args": {
+                "type": "array",
+                "minItems": 1,
+                "maxItems": 1,
+                "items": {
+                  "$ref": "#/$defs/predicate"
+                }
+              }
+            },
+            "required": [
+              "op",
+              "args"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "op": {
+                "enum": [
+                  "&",
+                  "|",
+                  "%in%",
+                  ">=",
+                  "<=",
+                  ">",
+                  "<",
+                  "==",
+                  "!="
+                ]
+              },
+              "args": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "items": {
+                  "$ref": "#/$defs/predicate"
+                }
+              }
+            },
+            "required": [
+              "op",
+              "args"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      }
+    }
+  },
+  "annotation_specification": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "NCA background annotation specification v1",
+    "type": "object",
+    "properties": {
+      "version": {
+        "const": 1
+      },
+      "dm": {
+        "type": "object",
+        "properties": {
+          "keys": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "columns": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100,
+              "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          }
+        },
+        "required": [
+          "keys",
+          "columns"
+        ],
+        "additionalProperties": false
+      },
+      "vs": {
+        "type": "object",
+        "properties": {
+          "keys": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "scope": {
+            "enum": [
+              "subject",
+              "keys"
+            ]
+          },
+          "test_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "value_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "unit_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "datetime_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "visit_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "selection": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "all_unique"
+                  }
+                },
+                "required": [
+                  "mode"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "filter"
+                  },
+                  "column": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "values": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": [
+                        "string",
+                        "number"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "mode",
+                  "column",
+                  "values"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "measurements": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 20,
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+                },
+                "test": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                }
+              },
+              "required": [
+                "name",
+                "test"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "keys",
+          "scope",
+          "test_column",
+          "value_column",
+          "unit_column",
+          "selection",
+          "measurements"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "version"
+    ],
+    "additionalProperties": false
+  },
+  "nca_specification": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "NCA specification",
+    "type": "object",
+    "required": [
+      "id",
+      "time",
+      "concentration"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "time": {
+        "type": "string",
+        "minLength": 1
+      },
+      "concentration": {
+        "type": "string",
+        "minLength": 1
+      },
+      "concentration_unit": {
+        "type": "string"
+      },
+      "unit_column": {
+        "type": "string"
+      },
+      "blq_column": {
+        "type": "string"
+      },
+      "mdv_column": {
+        "type": "string"
+      },
+      "predose_qc_lloq_column": {
+        "type": "string"
+      },
+      "groups": {
+        "anyOf": [
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        ]
+      },
+      "time_unit": {
+        "enum": [
+          "h",
+          "min",
+          "day"
+        ]
+      },
+      "blq": {
+        "enum": [
+          "exclude",
+          "zero",
+          "as_recorded"
+        ]
+      },
+      "flag_convention": {
+        "enum": [
+          "strict",
+          "y_blank"
+        ]
+      },
+      "scope": {
+        "enum": [
+          "all",
+          "ss"
+        ]
+      },
+      "c0_method": {
+        "enum": [
+          "none",
+          "zero",
+          "predose"
+        ]
+      },
+      "all_blq_policy": {
+        "enum": [
+          "missing",
+          "zero"
+        ]
+      },
+      "predose_qc_lloq_source": {
+        "enum": [
+          "",
+          "column",
+          "constant"
+        ]
+      },
+      "auc_method": {
+        "enum": [
+          "linear",
+          "lin up/log down"
+        ]
+      },
+      "terminal_method": {
+        "enum": [
+          "none",
+          "auto",
+          "manual"
+        ]
+      },
+      "dosing_context": {
+        "enum": [
+          "single",
+          "isolated_single_period",
+          "repeated_final",
+          "ongoing"
+        ],
+        "description": "isolated_single_period requires complete version-2 per-profile dose evidence, h units and dose-relative origin 0. Legacy single and repeated_final retain their restrictions."
+      },
+      "washout_attestation": {
+        "enum": [
+          "unconfirmed",
+          "protocol_confirmed"
+        ],
+        "description": "Operator assessment of sufficient separation from prior exogenous single administration. Prior-dose profiles additionally require original-evidence predose QC pass or pass_blq; no prior dose requires neither. Does not establish BE eligibility."
+      },
+      "terminal_qc_action": {
+        "enum": [
+          "flag",
+          "withhold"
+        ]
+      },
+      "time_origin": {
+        "type": "number"
+      },
+      "start": {
+        "type": "number"
+      },
+      "infusion_end_h": {
+        "type": "number"
+      },
+      "terminal_min_r_squared": {
+        "type": "number"
+      },
+      "terminal_min_span_ratio": {
+        "type": "number"
+      },
+      "aucinf_max_extrap_pct": {
+        "type": "number"
+      },
+      "end": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "predose_window_h": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "predose_qc_threshold_pct": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "predose_qc_window_h": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "terminal_start_h": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "terminal_end_h": {
+        "type": [
+          "number",
+          "null"
+        ]
+      },
+      "include_aucproc": {
+        "type": "boolean"
+      },
+      "dose_history_confirmed": {
+        "type": "boolean",
+        "description": "Analysis attestation that relevant prior administration through last analyzed observation is completely documented. Does not override source evidence."
+      },
+      "predose_qc_lloq_value": {
+        "type": [
+          "number",
+          "string",
+          "boolean",
+          "null"
+        ]
+      },
+      "pknca_version": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "dose": {
+        "type": "object",
+        "properties": {
+          "amount_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "unit_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "basis": {
+            "enum": [
+              "absolute",
+              "per_kg",
+              "per_m2"
+            ]
+          },
+          "meaning": {
+            "const": "actual_administered"
+          },
+          "reference": {
+            "enum": [
+              "selected_dose",
+              "declared_profile"
+            ]
+          },
+          "route_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "extravascular_values": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          }
+        },
+        "required": [
+          "amount_column",
+          "unit_column",
+          "basis",
+          "meaning",
+          "reference",
+          "route_column",
+          "extravascular_values"
+        ],
+        "additionalProperties": false
+      },
+      "body_size": {
+        "type": "object",
+        "properties": {
+          "weight": {
+            "type": "object",
+            "properties": {
+              "value_column": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "unit_column": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              }
+            },
+            "required": [
+              "value_column",
+              "unit_column"
+            ],
+            "additionalProperties": false
+          },
+          "bsa": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "value_column": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "unit_column": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "mode": {
+                    "const": "recorded"
+                  }
+                },
+                "required": [
+                  "value_column",
+                  "unit_column",
+                  "mode"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "mosteller"
+                  },
+                  "height": {
+                    "type": "object",
+                    "properties": {
+                      "value_column": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "unit_column": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      }
+                    },
+                    "required": [
+                      "value_column",
+                      "unit_column"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "mode",
+                  "height"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "derived_parameters": {
+        "type": "array",
+        "uniqueItems": true,
+        "items": {
+          "enum": [
+            "CMAXD",
+            "AUCLSTD",
+            "AUCIFOD",
+            "CLFO",
+            "VZFO",
+            "CLFOWT",
+            "VZFOWT",
+            "CLFOBSA",
+            "VZFOBSA"
+          ]
+        }
+      },
+      "group_roles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "column": {
+              "type": "string",
+              "minLength": 1
+            },
+            "role": {
+              "type": "string",
+              "enum": [
+                "period",
+                "analyte",
+                "specimen",
+                "treatment",
+                "study",
+                "other"
+              ]
+            }
+          },
+          "required": [
+            "column",
+            "role"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "period_order": {
+        "type": "object",
+        "properties": {
+          "column": {
+            "type": "string",
+            "minLength": 1
+          },
+          "values": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "column",
+          "values"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  },
+  "covariate_specification": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Pre-NCA covariate input specification v1",
+    "type": "object",
+    "properties": {
+      "version": {
+        "const": 1
+      },
+      "dm": {
+        "type": "object",
+        "properties": {
+          "keys": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "columns": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100,
+              "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          }
+        },
+        "required": [
+          "keys",
+          "columns"
+        ],
+        "additionalProperties": false
+      },
+      "vs": {
+        "type": "object",
+        "properties": {
+          "keys": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "scope": {
+            "enum": [
+              "subject",
+              "keys"
+            ]
+          },
+          "test_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "value_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "unit_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "datetime_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "visit_column": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "selection": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "all_unique"
+                  }
+                },
+                "required": [
+                  "mode"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "filter"
+                  },
+                  "column": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "values": {
+                    "type": "array",
+                    "minItems": 1,
+                    "maxItems": 100,
+                    "uniqueItems": true,
+                    "items": {
+                      "type": [
+                        "string",
+                        "number"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "mode",
+                  "column",
+                  "values"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "measurements": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 20,
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100,
+                  "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+                },
+                "test": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 100
+                },
+                "role": {
+                  "enum": [
+                    "weight",
+                    "height",
+                    "bsa",
+                    "carry"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "test",
+                "role"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "baseline": {
+            "type": "object",
+            "properties": {
+              "mode": {
+                "enum": [
+                  "period",
+                  "subject_confirmed"
+                ]
+              },
+              "confirmed": {
+                "const": true
+              }
+            },
+            "required": [
+              "mode",
+              "confirmed"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "keys",
+          "scope",
+          "test_column",
+          "value_column",
+          "unit_column",
+          "selection",
+          "measurements",
+          "baseline"
+        ],
+        "additionalProperties": false
+      },
+      "profile": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "groups": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "study": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "period": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          }
+        },
+        "required": [
+          "id",
+          "groups"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "version",
+      "profile"
+    ],
+    "additionalProperties": false
+  }
+}

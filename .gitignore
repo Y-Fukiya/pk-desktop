@@ -1,0 +1,24 @@
+# Local dependencies and build products
+.runtime/
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+/apps/pk-desktop/src-tauri/target/
+/apps/pk-desktop/src-tauri/gen/
+
+# R and macOS session files
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Rplots.pdf
+
+# Generated project data. Keep the bundled synthetic fixture.
+/outputs/*
+!/outputs/pk-review/
+/outputs/pk-review/*
+!/outputs/pk-review/bundles/
+/outputs/pk-review/bundles/*
+!/outputs/pk-review/bundles/reviewed-repeated/
+
